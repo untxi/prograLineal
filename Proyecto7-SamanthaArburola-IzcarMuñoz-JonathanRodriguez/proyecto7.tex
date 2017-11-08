@@ -15,10 +15,10 @@
 \hfsetfillcolor{alerted text.fg!10}
 \hfsetbordercolor{alerted text.fg}
 
-\author{Samantha Arburola, Izcar Muñoz, Jonathan Rodríguez}
-\rel{Ingeniería en Computación\\PhD. Francisco Torres-Rojas\\II Semestre 2017}
-\title{Programación Lineal}
-\ateneo{Investigación de Operaciones}
+\author{Samantha Arburola, Izcar Muñoz, Jonathan Rodr\'iguez}
+\rel{Ingenier\'ia en Computaci\'on\\PhD. Francisco Torres-Rojas\\II Semestre 2017}
+\title{Programaci\'on Lineal}
+\ateneo{Investigaci\'on de Operaciones}
 \date{\today}
 
 \begin{document}
@@ -27,12 +27,12 @@
 
 % Problema 1
 \begin{frame}[t,fragile]{Problema 3.1-6}
-La empresa Whitt Windows tiene solo tres empleados que hacen dos tipos de ventanas a mano: con marcos de madera y con marcos de aluminio. La ganancia es de \$60 por cada ventana con marco de madera y de \$30 por cada una con marco de aluminio. Doug hace hace marcos de madera y puede terminar 6 al día. Linda hace 4  marcos de aluminio por día. Bog forma y corta el vidrio y puede hacer 48 pies cuadrados al día. Cada ventana con marco de madera usa 6 pies cuadrados de vidrio y cada una de aluminio 8 pies cuadrados.\\ 
+La empresa Whitt Windows tiene solo tres empleados que hacen dos tipos de ventanas a mano: con marcos de madera y con marcos de aluminio. La ganancia es de \$60 por cada ventana con marco de madera y de \$30 por cada una con marco de aluminio. Doug hace hace marcos de madera y puede terminar 6 al d\'ia. Linda hace 4  marcos de aluminio por d\'ia. Bog forma y corta el vidrio y puede hacer 48 pies cuadrados al d\'ia. Cada ventana con marco de madera usa 6 pies cuadrados de vidrio y cada una de aluminio 8 pies cuadrados.\\ 
 \begin{wrapfigure}{l}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{1}
 \end{wrapfigure}\\
-La compañía desea determinar cuántas ventanas de cada tipo producir al día para maximizar la ganancia total.\\
+La compañ\'ia desea determinar cu\'antas ventanas de cada tipo producir al d\'ia para maximizar la ganancia total.\\
 
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
@@ -48,12 +48,12 @@ La compañía desea determinar cuántas ventanas de cada tipo producir al día p
 
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 Marco de madera  = \(X_{1}\) \\
 Marco de Aluminio = \(X_{2}\)
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Maximizar\\
 \[Z = 60X_{1} + 30X_{2}\]
 \end{frame}
@@ -73,15 +73,15 @@ Sujeto a :\\
 \[  X_{2} <= 4\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
 \includegraphics[width=0.9\textwidth]{11}
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{12}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 405.0000\]
 \[X_{1} = 6.0000\]
 \[X_{2} = 1.5000\]
@@ -89,23 +89,24 @@ Sujeto a :\\
 
 %Problema 2
 \begin{frame}[t,fragile]{Problema 3.1-7 }
-La compañía Word Light produce dos dispositivos para las lámparas (productos 1 y 2) que requieren partes de metal y componentes eléctricas. La administración desea determinar cuántas unidades de cada producto fabricar para maximizar la ganancia. 
+La compañ\'ia Word Light produce dos dispositivos para las l\'amparas (productos 1 y 2) que requieren partes de metal y componentes el\'ectricas. La administraci\'on desea determinar cu\'antas unidades de cada producto fabricar para maximizar la ganancia. 
 \begin{wrapfigure}{c}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{2}
 \end{wrapfigure}
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.1-7 }
-Por cada unidad del producto 1 se requieren 1 unidad de partes de metal y 2 unidades de componentes eléctricas, por cada unidad del producto 2 se requieren 3 unidades de partes de metal y 2 unidades de componentes eléctricas, la compañía tiene 200 unidades de partes de metal y 300 de componentes eléctricas, cada unidad del producto 1 da una ganancia de \$ 1 y cada unidad de producto 2, hasta 60 unidades da una ganancia de \$ 2, cualquier exceso de 60 unidades no tiene ganancia por lo que fabricar más de 60 está fuera de consideración. \\
+Por cada unidad del producto 1 se requieren 1 unidad de partes de metal y 2 unidades de componentes el\'ectricas, por cada unidad del producto 2 se requieren 3 unidades de partes de metal y 2 unidades de componentes el\'ectricas, la compañ\'ia tiene 200 unidades de partes de metal y 300 de componentes el\'ectricas, cada unidad del producto 1 da una ganancia de \$ 1 y cada unidad de producto 2, hasta 60 unidades da una ganancia de \$ 2, cualquier exceso de 60 unidades no tiene ganancia por lo que fabricar m\'as de 60 est\'a fuera de consideraci\'on. \\
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \[P_{1} = producto 1\]
 \[P_{2} = producto 2\]
-
+\end{frame}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \begin{tabular}{|c|c|c|c|}
 \hline 
-  & Metal & Eléctrico & Ganancia \\ 
+  & Metal & El\'ectrico & Ganancia \\ 
 \hline 
 \(P_{1}\) & 1 & 2 & 1 \\ 
 \hline 
@@ -117,7 +118,7 @@ Por cada unidad del producto 1 se requieren 1 unidad de partes de metal y 2 unid
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Maximizar:\\
 \[Z = P_{1} + 2P_{2}\]
 
@@ -138,14 +139,14 @@ Sujeto a :\\
 \[P2 <= 60\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{21}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{22}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 175.0000\]
 \[P_{1} = 125.0000\]
 \[P_{2} = 25.0000\]
@@ -156,8 +157,8 @@ Sujeto a :\\
 \begin{wrapfigure}{l}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{3}
-\end{wrapfigure} La compañía de seguros primos está en proceso de introducir dos nuevas líneas de productos: seguro de riesgo especial e hipotecas. La ganancia esperada es \$5 por el seguro de riesgo especial y \$2 por unidad de hipoteca.
-La administración debe establecer las cuotas de ventas de las nuevas líneas para maximizar la ganancia total esperada. Los requerimientos de trabajo son los siguientes\\
+\end{wrapfigure} La compañ\'ia de seguros primos est\'a en proceso de introducir dos nuevas l\'ineas de productos: seguro de riesgo especial e hipotecas. La ganancia esperada es \$5 por el seguro de riesgo especial y \$2 por unidad de hipoteca.
+La administraci\'on debe establecer las cuotas de ventas de las nuevas l\'ineas para maximizar la ganancia total esperada. Los requerimientos de trabajo son los siguientes\\
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.1-8 }
 
@@ -169,20 +170,20 @@ Depto. & Riesgo Especial & Hipoteca & Disponibles \\
 \hline 
 Suscripciones & 3 & 2 & 2400 \\ 
 \hline 
-Administración & 0 & 1 & 800 \\ 
+Administraci\'on & 0 & 1 & 800 \\ 
 \hline 
 Reclamaciones & 2 & 0 & 1200 \\ 
 \hline 
 \end{tabular} 
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \[X_{1} = seguro de riesgo especial\]
 \[X_{2} = hipoteca\]
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Maximizar:\\
 \[Z = 5X_{1} + 2X_{2}\]
 \end{frame}
@@ -206,14 +207,14 @@ Sujeto a :\\
 \[X_{1}, X_{2} > 0\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{32}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{31}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 3 600.0000\]
 \[X_{1} = 600.0000\]
 \[X_{2} = 300.0000\]
@@ -222,7 +223,7 @@ Sujeto a :\\
 %Problema 4
 \begin{frame}[t,fragile]{Problema  3.1-9}
 
-Weenies and Buns es una planta procesadora de alimentos que fabrica hotdogs y pan para hotdogs. Muelen su propia harina para el pan a una tasa máxima de 200 libras por semana. Cada pan requiere 0.1 libras. Tiene un contrato con Pigland Inc, que especifica la entrega de 800 libras de producto de puerco cada lunes.
+Weenies and Buns es una planta procesadora de alimentos que fabrica hotdogs y pan para hotdogs. Muelen su propia harina para el pan a una tasa m\'axima de 200 libras por semana. Cada pan requiere 0.1 libras. Tiene un contrato con Pigland Inc, que especifica la entrega de 800 libras de producto de puerco cada lunes.
 \begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{4}
@@ -230,15 +231,15 @@ Weenies and Buns es una planta procesadora de alimentos que fabrica hotdogs y pa
 \end{frame}
 
 \begin{frame}[t,fragile]{Problema  3.1-9}
-Cada hotdog requiere 0.25 libras de producto de puerco. Se cuenta con suficiente cantidad del resto de los ingredientes de ambos productos. Por último, la mano de obra consiste en 5 empleados de tiempo completo (40 horas por semana). Cada hotdog requiere 3 minutos de mano de obra y cada pan requiere 2 minutos de mano de obra. Cada hotdog proporciona una ganancia de \$0.20 y cada pan de \$0.10. Weenies and Buns desea saber cuántos hotdogs y cuántos panes deben producir cada semana para lograr la ganancia más alta posible.
+Cada hotdog requiere 0.25 libras de producto de puerco. Se cuenta con suficiente cantidad del resto de los ingredientes de ambos productos. Por \'ultimo, la mano de obra consiste en 5 empleados de tiempo completo (40 horas por semana). Cada hotdog requiere 3 minutos de mano de obra y cada pan requiere 2 minutos de mano de obra. Cada hotdog proporciona una ganancia de \$0.20 y cada pan de \$0.10. Weenies and Buns desea saber cu\'antos hotdogs y cu\'antos panes deben producir cada semana para lograr la ganancia m\'as alta posible.
 \end{frame}
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \[P = cantidad de panes para hot dog\]
 \[H = cantidad de hot dog\]
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Maximizar:\\
 \[Z = 0.2H + 0.1P\]
 
@@ -260,14 +261,14 @@ sujeto a:\\
 \[2P + 3H <= 1200, y que estamos en minutos, por lo tanto son 5 empleados que trabajan 40 horas por semana, lo cual es 2400 minutos, ahora son 5, por lo tanto hay disponible 12 000 minutos.\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{42.png}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{41.png}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 760.0000\]
 \[H = 3 200.0000\]
 \[P = 1 200.0000\]
@@ -275,23 +276,23 @@ sujeto a:\\
 
 %Problema 5
 \begin{frame}[t,fragile]{Problema 3.2-3}
-Hoy es un día de suerte. Acaba de ganar un premio de \$10.000. Dedicara \$4.000 a impuestos y diversiones, pero ha decidido invertir los otros \$6.000. \begin{wrapfigure}{r}{0.20\textwidth}
+Hoy es un d\'ia de suerte. Acaba de ganar un premio de \$10.000. Dedicara \$4.000 a impuestos y diversiones, pero ha decidido invertir los otros \$6.000. \begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{5}
-\end{wrapfigure}Al oír las nuevas, dos amigos le han ofrecido una oportunidad de convertirse en socio en dos empresas distintas, cada una planeada por cada uno de ellos. En ambos casos, la inversión incluye dedicar parte de su tiempo el siguiente verano y dinero en efectivo. Para ser un socio completo en el caso del primer amigo debe invertir \$ 5000 y 400 horas, y su ganancia estimada (sin tomar en cuenta el valor del dinero en el tiempo) seria \$ 450. 
+\end{wrapfigure}Al o\'ir las nuevas, dos amigos le han ofrecido una oportunidad de convertirse en socio en dos empresas distintas, cada una planeada por cada uno de ellos. En ambos casos, la inversi\'on incluye dedicar parte de su tiempo el siguiente verano y dinero en efectivo. Para ser un socio completo en el caso del primer amigo debe invertir \$ 5000 y 400 horas, y su ganancia estimada (sin tomar en cuenta el valor del dinero en el tiempo) seria \$ 450. 
 
 \end{frame}
 \begin{frame}[t,fragile]{Problema  3.1-9}
-Las cifras correspondientes para el segundo caso son \$ 4000 y 500 horas, con una ganancia estima de \$ 4500. Sin embargo, ambos amigos son flexibles y le permitirían participar con cualquier fracción de participación que quiera. Si elige una participación parcial, todas las cifras dadas para sociedad completa (inversión de dinero y tiempo, y la ganancia) se pueden multiplicar por esta fracción. \\
-Como de todas formas usted busca un trabajo de verano interesante (máximo 600 horas), a decidido participar en una o ambas empresas en alguna combinación que maximice su ganancia total estimada. Usted debe resolver el problema de encontrar la mejor combinación.
+Las cifras correspondientes para el segundo caso son \$ 4000 y 500 horas, con una ganancia estima de \$ 4500. Sin embargo, ambos amigos son flexibles y le permitir\'ian participar con cualquier fracci\'on de participaci\'on que quiera. Si elige una participaci\'on parcial, todas las cifras dadas para sociedad completa (inversi\'on de dinero y tiempo, y la ganancia) se pueden multiplicar por esta fracci\'on. \\
+Como de todas formas usted busca un trabajo de verano interesante (m\'aximo 600 horas), a decidido participar en una o ambas empresas en alguna combinaci\'on que maximice su ganancia total estimada. Usted debe resolver el problema de encontrar la mejor combinaci\'on.
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
-\[P_{1} = participación Amigo 1\]
-\[P_{2} = participación Amigo 2\]
+\begin{frame}[fragile]{Variables de Decisi\'on}
+\[P_{1} = participaci\'on Amigo 1\]
+\[P_{2} = participaci\'on Amigo 2\]
 \begin{tabular}{|c|c|c|c|}
 \hline 
-  & Inversión & Horas & Ganacia \\ 
+  & Inversi\'on & Horas & Ganacia \\ 
 \hline 
 Amigo 1 & 5000 & 400 & 4500 \\ 
 \hline 
@@ -304,14 +305,14 @@ Disponibilidad & 6000 & 600 & • \\
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Maximizar\\
 \[Z = 4500P_{1} + 4500P_{2}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-\[5000P_{1} + 4000P_{2} <= 6000 inversión total\]
+\[5000P_{1} + 4000P_{2} <= 6000 inversi\'on total\]
 \[400P_{1} + 5000P_{2} <= 600 horas disponible\]
 \[P_{1}, P_{2} > 0\]
 
@@ -322,20 +323,20 @@ Maximizar\\
 \[Z = 4500P_{1} + 4500P_{2}\]
 
 Sujeto a:\\
-\[5000P_{1} + 4000P_{2} <= 6000 inversión total\]
+\[5000P_{1} + 4000P_{2} <= 6000 inversi\'on total\]
 \[400P_{1} + 5000P_{2} <= 600 horas disponible\]
 \[P_{1}, P_{2} > 0\]
 
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{51.png}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{52.png}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 6 000.0000\]
 \[P_{1} = 0.6666667\]
 \[P_{2} = 0.6666667\]
@@ -343,7 +344,7 @@ Sujeto a:\\
 
 %Problema 6
 \begin{frame}[t,fragile]{Problema 3.4-7}
-La carne con papas es el plato favorito de Ralph Edmund. Por eso decidió hacer dieta continua de sólo estos dos alimentos (más algunos líquidos y suplementos de vitaminas) en todas las comidas. Ralph sabe que ésa no es la dieta más sana y quiere asegurarse de que toma cantidades adecuadas de  los dos alimentos para satisfacer los requerimientos nutricionales. Cuenta con la siguiente información.\begin{wrapfigure}{c}{0.20\textwidth}
+La carne con papas es el plato favorito de Ralph Edmund. Por eso decidi\'o hacer dieta continua de s\'olo estos dos alimentos (m\'as algunos l\'iquidos y suplementos de vitaminas) en todas las comidas. Ralph sabe que \'esa no es la dieta m\'as sana y quiere asegurarse de que toma cantidades adecuadas de  los dos alimentos para satisfacer los requerimientos nutricionales. Cuenta con la siguiente informaci\'on.\begin{wrapfigure}{c}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{6}
 \end{wrapfigure}
@@ -352,29 +353,29 @@ La carne con papas es el plato favorito de Ralph Edmund. Por eso decidió hacer 
 
 \begin{tabular}{|c|c|c|c|}
 \hline 
-Ingrediente & Gramos por porción &   & Requerimientos diarios\\ 
+Ingrediente & Gramos por porci\'on &   & Requerimientos diarios\\ 
 \hline 
   & Res & Papa &   \\ 
 \hline 
 Carboidratos & 5 & 15 & >= 50 \\ 
 \hline 
-Proteínas & 20 & 5 & >= 40 \\ 
+Prote\'inas & 20 & 5 & >= 40 \\ 
 \hline 
 Grasa & 15 & 2 & <= 60 \\ 
 \hline 
-Costo Por Porción & \$14 & \$2 & • \\ 
+Costo Por Porci\'on & \$14 & \$2 & • \\ 
 \hline 
 \end{tabular} \\
-Ralph requiere determinar el número de porciones diarias (pueden ser fraccionarias) de res y  papas que cumplirían con estos requerimientos a un costo mínimo.
+Ralph requiere determinar el n\'umero de porciones diarias (pueden ser fraccionarias) de res y  papas que cumplir\'ian con estos requerimientos a un costo m\'inimo.
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
-\[x_{1} = Gramos por porción de Res\]
-\[x_{2} = Gramos por porción de Papa\]
+\begin{frame}[fragile]{Variables de Decisi\'on}
+\[x_{1} = Gramos por porci\'on de Res\]
+\[x_{2} = Gramos por porci\'on de Papa\]
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Minimizar\\
 \[Z = 4x_{1} + 2x_{2}\]
 
@@ -398,14 +399,14 @@ Sujeto a :\\
 \[x_{1}, >= 0\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{61.png}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{63.png}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 10.90909\]
 \[X_{1} = 1.2727\]
 \[X_{2} = 2.909091\]
@@ -413,21 +414,21 @@ Sujeto a :\\
 
 %Problema 7
 \begin{frame}[t,fragile]{Problema 3.4-8 }
-Web Mercantile vende muchos productos para el hogar mediante un catálogo en línea. La compañía  necesita un gran espacio para almacenar los productos. En la actualidad planea rentar espacio para los siguientes 5 meses. Se sabe cuánto espacio necesitará cada mes, pero como el mismo varía mucho, puede ser más económico rentar sólo la cantidad  de necesaria cada mes con contratos mensuales.
+Web Mercantile vende muchos productos para el hogar mediante un cat\'alogo en l\'inea. La compañ\'ia  necesita un gran espacio para almacenar los productos. En la actualidad planea rentar espacio para los siguientes 5 meses. Se sabe cu\'anto espacio necesitar\'a cada mes, pero como el mismo var\'ia mucho, puede ser m\'as econ\'omico rentar s\'olo la cantidad  de necesaria cada mes con contratos mensuales.
 \begin{wrapfigure}{c}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{7}
 \end{wrapfigure}
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.4-7}
-Por otro lado, el costo adicional de rentar espacio para meses adicionales es menor que para el primero, y puede ser menos costoso rentar el espacio máximo lo 5 meses. Otra opción es el enfoque intermedio de cambiar la cantidad total de  espacio rentado (con un nuevo contrato y/o terminación del anterior) al menos una vez pero no cada mes.
+Por otro lado, el costo adicional de rentar espacio para meses adicionales es menor que para el primero, y puede ser menos costoso rentar el espacio m\'aximo lo 5 meses. Otra opci\'on es el enfoque intermedio de cambiar la cantidad total de  espacio rentado (con un nuevo contrato y/o terminaci\'on del anterior) al menos una vez pero no cada mes.
 \end{frame}
 
 \begin{frame}[t,fragile]{Problema 3.4-8 }
 El espacio requerido si los costos de arrendamiento son los siguientes:
 \begin{tabular}{|c|c|c|c|}
 \hline 
-Mes & Espacio Requerido & Periodo & Costo por ft^2 arrendado \\ 
+Mes & Espacio Requerido & Periodo & Costo por \(ft^2\) arrendado \\ 
 \hline 
 1 & 30000 & 1 & \$65 \\ 
 \hline 
@@ -443,11 +444,11 @@ Mes & Espacio Requerido & Periodo & Costo por ft^2 arrendado \\
 El objetivo es minimizar el costo total de arrendamiento para cumplir con los requerimientos.
 \end{frame}
 
-\begin{frame}[fragile]{Análisis}
-Debemos pensar en los .meses que vamos a arrendar, podemos arrendar el espacio máximo por los cinco meses, esto permite inferir que debemos alquilar al menos el espacio indicado en la tabla del problema. Además tenemos que considerar o clasificar los meses que afectan cada uno de los contratos.
+\begin{frame}[fragile]{An\'alisis}
+Debemos pensar en los .meses que vamos a arrendar, podemos arrendar el espacio m\'aximo por los cinco meses, esto permite inferir que debemos alquilar al menos el espacio indicado en la tabla del problema. Adem\'as tenemos que considerar o clasificar los meses que afectan cada uno de los contratos.
 
 \end{frame}
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \(A_{1}\) = Espacio a arrendar el primer mes por el periodo de 1 mes\\
 \(A_{2}\) = Espacio a arrendar el primer mes por el periodo de 2 meses\\
 \(A_{3}\) = Espacio a arrendar el primer mes por el periodo de 3 meses\\
@@ -470,7 +471,7 @@ Debemos pensar en los .meses que vamos a arrendar, podemos arrendar el espacio m
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Minimizar\\
 \[Z = 65 A_{1} + 100 A_{2} + 135 A_{3} + 160 A_{4} + 190 A_{5} + 65 B_{1} + 100 B_{2} + 135 B_{3} + 160 B_{4} + 65 C_{1} + 100 C_{2} + 135 C_{3} + 65 D_{1} + 100 D_{2} + 65 E_{1}\]
 
@@ -497,14 +498,14 @@ Sujeto a :\\
 
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{72}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{71}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 7650000\]
 \[A_{1} = 0.0000\]
 \[A_{2} = 0.0000\]
@@ -526,20 +527,20 @@ Sujeto a :\\
 
 %Problema 8
 \begin{frame}[t,fragile]{Problema 3.4-14 }
-Oxbridge University tiene una computadora grande para uso de académicos, estudiantes de doctorado y ayudantes de investigación. Durante las horas hábiles debe haber un trabajador para operador y dar mantenimiento a la computadora y realizar algunos servicios  de programación. Beryl Ingram, director del centro de cómputo, coordina la operación.
+Oxbridge University tiene una computadora grande para uso de acad\'emicos, estudiantes de doctorado y ayudantes de investigaci\'on. Durante las horas h\'abiles debe haber un trabajador para operador y dar mantenimiento a la computadora y realizar algunos servicios  de programaci\'on. Beryl Ingram, director del centro de c\'omputo, coordina la operaci\'on.
 \begin{wrapfigure}{c}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{8}
 \end{wrapfigure}
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.4-14 }
-Al principio del semestre de  otoño , Beryl se enfrenta al problema de asignar horas de trabajo distintas a sus operadores. Debido a que éstos son estudiantes de la universidad, están disponibles para el trabajo solo un número limitado de horas al dia, como se muestra en la tabla. \\
+Al principio del semestre de  otoño , Beryl se enfrenta al problema de asignar horas de trabajo distintas a sus operadores. Debido a que \'estos son estudiantes de la universidad, est\'an disponibles para el trabajo solo un n\'umero limitado de horas al dia, como se muestra en la tabla. \\
 
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline 
-• & • & \multicolumn{5}{c|}{Máximo de horas disponibles} \\ 
+• & • & \multicolumn{5}{c|}{M\'aximo de horas disponibles} \\ 
 \hline 
-Operador & Salarios & Lun. & Mar. & Mié. & Jue. & Vie. \\ 
+Operador & Salarios & Lun. & Mar. & Mi\'e. & Jue. & Vie. \\ 
 \hline 
 K.C. & \$10.00/hora & 6 & 0 & 6 & 0 & 6 \\ 
 \hline 
@@ -556,35 +557,36 @@ N.K. & \$11.30/hora & 0 & 0 & 0 & 6 & 2 \\
 \end{tabular} 
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.4-14 }
-Hay seis operadores (cuatro de licenciatura y dos de posgrado). Todos tienen salarios diferentes según su experiencia con computadoras y su aptitud para programar. La tabla muestra estos salarios junto con el número máximo de horas al día que cada uno puede trabajar.\\
-Se garantiza a cada operador un número mínimo de horas de trabajo a la semana que lo mantendrán con un conocimiento adecuado de la operación. Este nivel se estableció de modo arbitrario en 8 horas por semana para licenciatura (K.C., D.H., H.B. y S.C.) y 7 horas por semana para posgrado (K.S. y N.K.).\\
+Hay seis operadores (cuatro de licenciatura y dos de posgrado). Todos tienen salarios diferentes seg\'un su experiencia con computadoras y su aptitud para programar. La tabla muestra estos salarios junto con el n\'umero m\'aximo de horas al d\'ia que cada uno puede trabajar.\\
+Se garantiza a cada operador un n\'umero m\'inimo de horas de trabajo a la semana que lo mantendr\'an con un conocimiento adecuado de la operaci\'on. Este nivel se estableci\'o de modo arbitrario en 8 horas por semana para licenciatura (K.C., D.H., H.B. y S.C.) y 7 horas por semana para posgrado (K.S. y N.K.).\\
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.4-14 }
-El centro de computo debe abrir de 8 am a 10 pm de lunes a viernes con un operador de guardia en este horario. Sábados y domingos, otras personas lo operan. Debido al presupuesto reducido, Beryl tiene que minimizar el costo. Ella quiere determinar el número de horas que debe asignar a cada operador cada día. \begin{wrapfigure}{r}{0.20\textwidth}
+El centro de computo debe abrir de 8 am a 10 pm de lunes a viernes con un operador de guardia en este horario. S\'abados y domingos, otras personas lo operan. Debido al presupuesto reducido, Beryl tiene que minimizar el costo. Ella quiere determinar el n\'umero de horas que debe asignar a cada operador cada d\'ia.
+\begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{8}
 \end{wrapfigure}
 
 \end{frame}
-\begin{frame}{Análisis}
-Se requiere minimizar el costo  de las horas de cada operador en cada día. 
-Para ello, podemos ver como una “matriz” \(X_{ij}\), donde  i es cada operador, y j es el día de la semana (i = KC, DH, HB, SC, KS, NK;  j = lu, ma, mi, ju, vi).
+\begin{frame}{An\'alisis}
+Se requiere minimizar el costo  de las horas de cada operador en cada d\'ia. 
+Para ello, podemos ver como una “matriz” \(X_{ij}\), donde  i es cada operador, y j es el d\'ia de la semana (i = KC, DH, HB, SC, KS, NK;  j = lu, ma, mi, ju, vi).
 Z = costo (salario * tiempo max disponible por trabajador * horas asignadas)
 
 \end{frame}
 
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \[x_{11} =  Horas asignadas al operador KC el lunes\]
 \[x_{12} = Horas asignadas al operador KC el martes\]
-\[x_{13} =  Horas asignadas al operador KC el miércoles\]
+\[x_{13} =  Horas asignadas al operador KC el mi\'ercoles\]
 \[x_{14}   = Horas asignadas al operador KC el jueves\]
 \[x_{15} =  Horas asignadas al operador KC el viernes\]
 \end{frame}
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 Lo mismo para  el operador 2 DH\\
 \[x_{21} =  Horas asignadas al operador DH el lunes\]
 \[x_{22} = Horas asignadas al operador DH el martes\]
-\[x_{23} =  Horas asignadas al operador DH el miércoles\]
+\[x_{23} =  Horas asignadas al operador DH el mi\'ercoles\]
 \[x_{24} = Horas asignadas al operador DH el jueves\]
 \[x_{25} =  Horas asignadas al operador DH el viernes\]
 
@@ -592,14 +594,14 @@ Lo mismo para  el operador 2 DH\\
 \[Lo mismo para el operador 6 NK\]
 \[X_{61} =  Horas asignadas al operador NK el lunes\]
 \[X_{62} = Horas asignadas al operador NK el martes\]
-\[X_{63} =  Horas asignadas al operador NK el miércoles\]
+\[X_{63} =  Horas asignadas al operador NK el mi\'ercoles\]
 \[X_{64} = Horas asignadas al operador NK el jueves\]
 \[X_{65} =  Horas asignadas al operador NK el viernes\]
 
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Minimizar
 \[Z = 10.00 (x_{11} + x_{12} +x_{13}+x_{14} +x_{15}) \]
 \[+ 10.10 (x_{21} + x_{22} +x_{23}+x_{24} + x_{25})\]
@@ -611,7 +613,7 @@ Minimizar
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-/* Restricciones  de mínimo número de horas a la semana K.C., D.H., H.B. y S.C. = 8, K.S. y N.K. = 7. */\\
+/* Restricciones  de m\'inimo n\'umero de horas a la semana K.C., D.H., H.B. y S.C. = 8, K.S. y N.K. = 7. */\\
 \[x_{1}1 + x_{12} +x_{1}3+x_{1}4 +x_{1}5 >=8\]
 \[x_{2}1 + x_{22} +x_{2}3+x_{2}4 + x_{2}5 >= 8\]
 \[X_{31} + X_{32} +X_{33}+X_{34} +X_{35} >= 8\]
@@ -620,7 +622,7 @@ Minimizar
 \[X_{61} + X_{62} +X_{63}+X_{64} +X_{65} >= 7\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
-/* El centro de cómputo abre de 8 am hasta 10 pm  (14 horas), donde siempre hay un operador, esto para toda la semana*/\\
+/* El centro de c\'omputo abre de 8 am hasta 10 pm  (14 horas), donde siempre hay un operador, esto para toda la semana*/\\
 \[Lunes => x_{11} + x_{21} + X_{31} +X_{41} + X_{51} +X_{61} = 14  \]
 \[Martes=> x_{12} + x_{22} + X_{32} +X_{42} + X_{52} + X_{62} = 14\]
 \[Miercoles=> x_{13} + x_{23} + X_{33} +X_{43} + X_{53} +X_{63} = 14\]
@@ -629,7 +631,7 @@ Minimizar
 
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
-/* Horas disponibles por día, para cada trabajador*/\\
+/* Horas disponibles por d\'ia, para cada trabajador*/\\
 Operador 1\\
     \[x_{11} <= 6\]
     \[x_{12} = 0\]
@@ -738,20 +740,20 @@ Sujeto a :\\
 \[X_{65} <= 2\]
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{81}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{82}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{83}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{84}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 709.7000 \]
 \[X_{11} = 2\]
 \[X_{12} = 0\]
@@ -763,7 +765,7 @@ Sujeto a :\\
 \[X_{23} = 0\]
 \[X_{24} = 5\]
 \end{frame}
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[X_{25} = 0\]
 \[X_{31} = 4\]
 \[X_{32} = 6\]
@@ -774,7 +776,7 @@ Sujeto a :\\
 \[X_{42} = 5\]
 \[X_{43} = 5\]
 \end{frame}
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[X_{44} = 0\]
 \[X_{45} = 5\]
 \[X_{51} = 3\]
@@ -785,7 +787,7 @@ Sujeto a :\\
 \[X_{55} = 0\]
 \[X_{61} = 0\]
 \end{frame}
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[X_{62} = 0\]
 \[X_{63} = 0\]
 \[X_{64} = 5\]
@@ -794,19 +796,20 @@ Sujeto a :\\
 
 %Problema 9
 \begin{frame}[t,fragile]{Problema 3.4-15 }
-Joyce y Marvin tienen una guardería. \begin{wrapfigure}{r}{0.20\textwidth}
+Joyce y Marvin tienen una guarder\'ia.
+\begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{9}
-\end{wrapfigure} Ellos intentan decidir qué dar a los niños de almuerzo. Desean mantener costos bajos, pero también deben cumplir los requerimientos nutritivos para niños. Ya decidieron darles sándwiches de mantequilla de maní y mermelada  y alguna combinación de galletas, leche y jugo de naranja.El contenido nutritivo de cada alimento y su costo se presenta en la siguiente tabla:\\
+\end{wrapfigure} Ellos intentan decidir qu\'e dar a los niños de almuerzo. Desean mantener costos bajos, pero tambi\'en deben cumplir los requerimientos nutritivos para niños. Ya decidieron darles s\'andwiches de mantequilla de man\'i y mermelada  y alguna combinaci\'on de galletas, leche y jugo de naranja.El contenido nutritivo de cada alimento y su costo se presenta en la siguiente tabla:\\
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.4-15 }
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline 
-Alimento & Grasa & Total & Vit.C(mg) & Proteínas & Costo(\$) \\ 
+Alimento & Grasa & Total & Vit.C(mg) & Prote\'inas & Costo(\$) \\ 
 \hline 
 Pan& 10 & 70 & 0 & 3 & 5 \\ 
 \hline 
-Mantequilla de maní& 75 & 100 & 0 & 4 & 4 \\ 
+Mantequilla de man\'i& 75 & 100 & 0 & 4 & 4 \\ 
 \hline 
 Galleta  & 20 & 60 & 0 & 1 & 8 \\ 
 \hline 
@@ -820,16 +823,16 @@ Jugo  & 0 & 100 & 120 & 1 & 35 \\
 \end{frame}
 
 \begin{frame}[t,fragile]{Problema 3.4-15 }
-Los requerimientos nutritivos son los siguientes. Cada niño debe recibir de 400 a 600 calorías. No más de 30\% de las calorías totales debe venir en grasas. Cada niño debe consumir al menos 60 mg de vitamina C y 12 g de proteína. Todavía más, por razones prácticas, cada niño necesita justo 2 rebanadas de pan (para un sandwich), al menos el doble de mantequilla de maní que de mermelada y al menos una taza de líquido (leche y/o jugo de naranja). 
+Los requerimientos nutritivos son los siguientes. Cada niño debe recibir de 400 a 600 calor\'ias. No m\'as de 30\% de las calor\'ias totales debe venir en grasas. Cada niño debe consumir al menos 60 mg de vitamina C y 12 g de prote\'ina. Todav\'ia m\'as, por razones pr\'acticas, cada niño necesita justo 2 rebanadas de pan (para un sandwich), al menos el doble de mantequilla de man\'i que de mermelada y al menos una taza de l\'iquido (leche y/o jugo de naranja). 
 Joyce y Marvin desean seleccionar las opciones de alimento para cada niño que minimice el costo mientras cumple con los requerimientos establecidos.
 \end{frame}
-\begin{frame}[fragile]{Análisis}
-Se requiere cubrir los requerimientos de la forma más barata posible. Como en el problema de la dieta visto en clases.
+\begin{frame}[fragile]{An\'alisis}
+Se requiere cubrir los requerimientos de la forma m\'as barata posible. Como en el problema de la dieta visto en clases.
 
 \end{frame}
-\begin{frame}[fragile]{Variables de Decisión}
+\begin{frame}[fragile]{Variables de Decisi\'on}
 \[x_{1} = Rebanadas de pan\]
-\[x_{2} = Cucharadas de mantequillas de maní\]
+\[x_{2} = Cucharadas de mantequillas de man\'i\]
 \[X_{3} = Cucharadas de fresa de mermelada\]
 \[X_{4} = Unidades de Galletas integrales\]
 \[X_{5} = Tazas de leche\]
@@ -837,15 +840,15 @@ Se requiere cubrir los requerimientos de la forma más barata posible. Como en e
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Minimizar\\
 \[Z = 5x_{1} + 4x_{2} +7X_{3} + 8X_{4} + 15X_{5} +36X_{6}\]
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-Calorías mínimas:\\
+Calor\'ias m\'inimas:\\
 \[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} >= 400\]
-Calorías máximas:
+Calor\'ias m\'aximas:
 \[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} <= 600\]
 Grasa:\\
 \[-11x_{1} + 45x_{2} - 15x_{3} + 2x_{4} + 25x_{5} - 30x_{6}  <=  0\]
@@ -853,13 +856,13 @@ Vitamina C:\\
 \[3x_{3} + 2x_{5} + 120x_{6} >= 60\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
-Proteínas:\\
+Prote\'inas:\\
 \[3x_{1} + 4x_{2} + x_{4} + 8x_{5} + x_{6} >= 12\]
 Pan:
 \[x_{1} = 2\]
-Doble mantequilla de maní que mermelada:\\
+Doble mantequilla de man\'i que mermelada:\\
 \[x_{2} - 2x_{3} >= 0\]
-Líquidos:\\
+L\'iquidos:\\
 \[x_{5} + x_{6} >= 1 \]
 Triviales\\
  \[x_{1}, x_{2}, x_{3}, x_{4}, x_{5}, x_{6} >= 0\]
@@ -882,14 +885,14 @@ Sujeto a :\\
 
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{92}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{91}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 47.79485 \]
 \[X_{1} = 2.0000\]
 \[X_{2} = 0.5747508\]
@@ -901,26 +904,26 @@ Sujeto a :\\
 
 %Problema 10
 \begin{frame}[t,fragile]{Problema 3.6-5 }
-Maureen Laird es directora de inversiones de Alva Electric Co., empresa importante en el medio oeste. La compañía ha programado la construcción de nuevas plantas hidroeléctricas a 5, 10, y 20 años, para satisfacer las necesidades de la creciente población en la región servida por la empresa. Para cubrir por lo menos los costos de construcción, Maureen tiene que invertir parte del dinero de  la empresa para cubrir estas necesidades futuras de liquidez. Maureen Sólo puede comprar tres tipos de activos financieros, cada uno  cuesta \$ 1 millón por unidad.
+Maureen Laird es directora de inversiones de Alva Electric Co., empresa importante en el medio oeste. La compañ\'ia ha programado la construcci\'on de nuevas plantas hidroel\'ectricas a 5, 10, y 20 años, para satisfacer las necesidades de la creciente poblaci\'on en la regi\'on servida por la empresa. Para cubrir por lo menos los costos de construcci\'on, Maureen tiene que invertir parte del dinero de  la empresa para cubrir estas necesidades futuras de liquidez. Maureen S\'olo puede comprar tres tipos de activos financieros, cada uno  cuesta \$ 1 mill\'on por unidad.
  \begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{10}
-\end{wrapfigure}\\
+\end{wrapfigure}
 \end{frame}
 
 \begin{frame}[t,fragile]{Problema 3.6-5 }
-Unidades fraccionarias pueden ser comprados. Los activos que produzcan ingresos de 5, 10 y 20 años a partir de ahora, y que los ingresos se necesitan para cubrir al menos el flujo de efectivo mínimo las necesidades de estos años. (Cualquier excedente de ingresos por encima del mínimo obligación de que cada período de tiempo se aprovechará para aumentar el pago de dividendos a los accionistas en lugar de guardarlo para ayudar a cumplir con el requisito mínimo de liquidez en el próximo período de tiempo.)La siguiente tabla muestra  los ingresos generados por cada unidad de cada activo y el  mínimo de ingresos necesarios para cada uno de los periodos futuros cuando una nueva central hidroeléctrica se construirá.
+Unidades fraccionarias pueden ser comprados. Los activos que produzcan ingresos de 5, 10 y 20 años a partir de ahora, y que los ingresos se necesitan para cubrir al menos el flujo de efectivo m\'inimo las necesidades de estos años. (Cualquier excedente de ingresos por encima del m\'inimo obligaci\'on de que cada per\'iodo de tiempo se aprovechar\'a para aumentar el pago de dividendos a los accionistas en lugar de guardarlo para ayudar a cumplir con el requisito m\'inimo de liquidez en el pr\'oximo per\'iodo de tiempo.)La siguiente tabla muestra  los ingresos generados por cada unidad de cada activo y el  m\'inimo de ingresos necesarios para cada uno de los periodos futuros cuando una nueva central hidroel\'ectrica se construir\'a.
 \end{frame}
 \begin{frame}[t,fragile]{Problema 3.6-5 }
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
- & \multicolumn{3}{c|}{\textbf{Ingresos por acción}} & \textbf{{Flujo de efectivo} }\\ 
+ & \multicolumn{3}{c|}{\textbf{Ingresos por acci\'on}} & \textbf{{Flujo de efectivo} }\\ 
 \hline 
-\textbf{Año} & \textbf{Acción 1} & \textbf{Acción 2} & \textbf{Acción 3} & \textbf{requerido} \\ 
+\textbf{Año} & \textbf{Acci\'on 1} & \textbf{Acci\'on 2} & \textbf{Acci\'on 3} & \textbf{requerido} \\ 
 \hline 
-5 & \$2 millones & \$1 millón & \$0.5 millones & \$400 millones \\ 
+5 & \$2 millones & \$1 mill\'on & \$0.5 millones & \$400 millones \\ 
 \hline 
-10 & \$0.5 milones & \$0.5 millones & \$ 1 millón & \$100 millones \\ 
+10 & \$0.5 milones & \$0.5 millones & \$ 1 mill\'on & \$100 millones \\ 
 \hline 
 20 & 0 & \1.5 millones & \$2 millones & \$300 millones \\ 
 \hline 
@@ -928,22 +931,22 @@ Unidades fraccionarias pueden ser comprados. Los activos que produzcan ingresos 
 \end{frame}
 
 \begin{frame}[t,fragile]{Problema 3.6-5 }
-Maureen desea determinar la mezcla de inversiones en estas acciones que cubrirá los requerimientos de efectivo y que minimizará la cantidad total invertida.
+Maureen desea determinar la mezcla de inversiones en estas acciones que cubrir\'a los requerimientos de efectivo y que minimizar\'a la cantidad total invertida.
 \end{frame}
 
-\begin{frame}[fragile]{Análisis}
-Se quiere determinar la mezcla de inversiones  para las acciones, que cumplan con los requerimientos  y que minimice la cantidad total invertida, que sea el óptimo. Es decir, que me diga la cantidad que debo invertir en el activo 1, cuánto debo invertir en el activo 2 y cuánto debo invertir en el activo 3.
-
-\end{frame}
-
-\begin{frame}[fragile]{Variables de Decisión}
-\[X_{1} = La cantidad de inversión para el activo 1\]
-\[X_{2} = La cantidad de inversión para el activo 2\]
-\[X_{3} = La cantidad de inversión para el activo 3\]
+\begin{frame}[fragile]{An\'alisis}
+Se quiere determinar la mezcla de inversiones  para las acciones, que cumplan con los requerimientos  y que minimice la cantidad total invertida, que sea el \'optimo. Es decir, que me diga la cantidad que debo invertir en el activo 1, cu\'anto debo invertir en el activo 2 y cu\'anto debo invertir en el activo 3.
 
 \end{frame}
 
-\begin{frame}[fragile]{Función Objetivo}
+\begin{frame}[fragile]{Variables de Decisi\'on}
+\[X_{1} = La cantidad de inversi\'on para el activo 1\]
+\[X_{2} = La cantidad de inversi\'on para el activo 2\]
+\[X_{3} = La cantidad de inversi\'on para el activo 3\]
+
+\end{frame}
+
+\begin{frame}[fragile]{Funci\'on Objetivo}
 Minimizar\\
 \[Z = X_{1} + X_{2} + X_{3}\]
 \end{frame}
@@ -967,14 +970,14 @@ Sujeto a :\\
 
 \end{frame}
 
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{102}
 \end{frame}
-\begin{frame}[fragile]{Solución LINGO}
+\begin{frame}[fragile]{Soluci\'on LINGO}
     \includegraphics[width=0.9\textwidth]{101}
 \end{frame}
 
-\begin{frame}[fragile]{Solución Final}
+\begin{frame}[fragile]{Soluci\'on Final}
 \[Z = 300.0000\]
 \[X_{1} = 100.0000\]
 \[X_{2} = 200.0000\]
