@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.7)  8 NOV 2017 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.7)  8 NOV 2017 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1019,15 +1019,6 @@ Type  H <return>  for immediate help.
                                                   
 l.45   \RequirePackage
                       {metalogo}% only for \XeTeX and \XeLaTeX logos
-? h
-The package inputenc has already been loaded with options:
-  [utf8]
-There has now been an attempt to load it with options
-  [utf8x]
-Adding the global options:
-  utf8,utf8x
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
@@ -1275,7 +1266,10 @@ Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
 . D(){\aboveleftoff }' on line 455.
 .................................................
 )
-No file proyecto7.aux.
+(./proyecto7.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
 \openout1 = `proyecto7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1292,6 +1286,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1371,6 +1366,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
+
+(./proyecto7.out) (./proyecto7.out)
 \@outlinefile=\write5
 \openout5 = `proyecto7.out'.
 
@@ -1454,8 +1451,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 24.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
-
-No file proyecto7.nav.
+ (./proyecto7.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 26.
@@ -1524,9 +1520,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \\L
-       a compañía desea determinar cuántas ventanas de cada tipo producir...
-
+l.6 \end{wrapfigure}\\
+                      
 ? 
 )
 
@@ -1608,7 +1603,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/11.png, id=83, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/11.png, id=87, 1371.1225pt x 770.88pt>
 File: images/11.png Graphic file (type png)
 
 <use images/11.png>
@@ -1630,7 +1625,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/12.png, id=95, 1371.1225pt x 770.88pt>
+<images/12.png, id=99, 1371.1225pt x 770.88pt>
 File: images/12.png Graphic file (type png)
  <use images/12.png>
 Package pdftex.def Info: images/12.png used on input line 2.
@@ -1665,7 +1660,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/2.jpg, id=113, 86.9649pt x 86.9649pt>
+ (./proyecto7.vrb <images/2.jpg, id=117, 86.9649pt x 86.9649pt>
 File: images/2.jpg Graphic file (type jpg)
 
 <use images/2.jpg>
@@ -1761,7 +1756,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/21.png, id=164, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/21.png, id=168, 1371.1225pt x 770.88pt>
 File: images/21.png Graphic file (type png)
 
 <use images/21.png>
@@ -1783,7 +1778,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/22.png, id=174, 1371.1225pt x 770.88pt>
+<images/22.png, id=178, 1371.1225pt x 770.88pt>
 File: images/22.png Graphic file (type png)
  <use images/22.png>
 Package pdftex.def Info: images/22.png used on input line 2.
@@ -1818,7 +1813,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/3.jpg, id=192, 402.50375pt x 203.76125pt>
+ (./proyecto7.vrb <images/3.jpg, id=196, 402.50375pt x 203.76125pt>
 File: images/3.jpg Graphic file (type jpg)
 
 <use images/3.jpg>
@@ -1923,7 +1918,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/32.png, id=243, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/32.png, id=247, 1371.1225pt x 770.88pt>
 File: images/32.png Graphic file (type png)
 
 <use images/32.png>
@@ -1945,7 +1940,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/31.png, id=254, 1371.1225pt x 770.88pt>
+<images/31.png, id=258, 1371.1225pt x 770.88pt>
 File: images/31.png Graphic file (type png)
  <use images/31.png>
 Package pdftex.def Info: images/31.png used on input line 2.
@@ -1980,7 +1975,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/4.jpg, id=272, 170.6375pt x 149.55875pt>
+ (./proyecto7.vrb <images/4.jpg, id=276, 170.6375pt x 149.55875pt>
 File: images/4.jpg Graphic file (type jpg)
 
 <use images/4.jpg>
@@ -2046,7 +2041,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+Overfull \hbox (465.93033pt too wide) detected at line 4
+\OT1/cmss/m/n/10.95 2\OT1/mathkerncmss/m/sl/10.95 P \OT1/cmss/m/n/10.95 + 3\OT1
+/mathkerncmss/m/sl/10.95 H \OML/cmm/m/it/10.95 <\OT1/cmss/m/n/10.95 = 1200\OML/
+cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 yqueestamosenminutos\OML/cmm/m/it
+/10.95 ; \OT1/mathkerncmss/m/sl/10.95 porlotantoson\OT1/cmss/m/n/10.95 5\OT1/ma
+thkerncmss/m/sl/10.95 empleadosquetrabajan\OT1/cmss/m/n/10.95 40\OT1/mathkerncm
+ss/m/sl/10.95 horasporsemana\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 
+locuales\OT1/cmss/m/n/10.95 2400\OT1/mathkerncmss/m/sl/10.95 minutos\OML/cmm/m/
+it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 ahorason\OT1/cmss/m/n/10.95 5\OML/cmm/m
+/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 porlotantohaydisponible\OT1/cmss/m/n/1
+0.95 12000\OT1/mathkerncmss/m/sl/10.95 minutos\OML/cmm/m/it/10.95 :
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2061,7 +2070,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+Overfull \hbox (465.93033pt too wide) detected at line 7
+\OT1/cmss/m/n/10.95 2\OT1/mathkerncmss/m/sl/10.95 P \OT1/cmss/m/n/10.95 + 3\OT1
+/mathkerncmss/m/sl/10.95 H \OML/cmm/m/it/10.95 <\OT1/cmss/m/n/10.95 = 1200\OML/
+cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 yqueestamosenminutos\OML/cmm/m/it
+/10.95 ; \OT1/mathkerncmss/m/sl/10.95 porlotantoson\OT1/cmss/m/n/10.95 5\OT1/ma
+thkerncmss/m/sl/10.95 empleadosquetrabajan\OT1/cmss/m/n/10.95 40\OT1/mathkerncm
+ss/m/sl/10.95 horasporsemana\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 
+locuales\OT1/cmss/m/n/10.95 2400\OT1/mathkerncmss/m/sl/10.95 minutos\OML/cmm/m/
+it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 ahorason\OT1/cmss/m/n/10.95 5\OML/cmm/m
+/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 porlotantohaydisponible\OT1/cmss/m/n/1
+0.95 12000\OT1/mathkerncmss/m/sl/10.95 minutos\OML/cmm/m/it/10.95 :
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2076,7 +2099,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/42.png, id=323, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/42.png, id=327, 1371.1225pt x 770.88pt>
 File: images/42.png Graphic file (type png)
 
 <use images/42.png>
@@ -2098,7 +2121,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/41.png, id=333, 1371.1225pt x 770.88pt>
+<images/41.png, id=337, 1371.1225pt x 770.88pt>
 File: images/41.png Graphic file (type png)
  <use images/41.png>
 Package pdftex.def Info: images/41.png used on input line 2.
@@ -2133,7 +2156,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/5.png, id=351, 891.33pt x 766.865pt>
+ (./proyecto7.vrb <images/5.png, id=355, 891.33pt x 766.865pt>
 File: images/5.png Graphic file (type png)
 
 <use images/5.png>
@@ -2169,7 +2192,40 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 2.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.2 \[P_{1} = participació
+                           n Amigo 1\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.2 \[P_{1} = participació
+                           n Amigo 1\]
+? 
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 3.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.3 \[P_{2} = participació
+                           n Amigo 2\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.3 \[P_{2} = participació
+                           n Amigo 2\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2199,7 +2255,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 2.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.2 \[5000P_{1} + 4000P_{2} <= 6000 inversió
+                                             n total\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.2 \[5000P_{1} + 4000P_{2} <= 6000 inversió
+                                             n total\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2214,7 +2287,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 6.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.6 \[5000P_{1} + 4000P_{2} <= 6000 inversió
+                                             n total\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.6 \[5000P_{1} + 4000P_{2} <= 6000 inversió
+                                             n total\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2229,7 +2319,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/51.png, id=402, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/51.png, id=406, 1371.1225pt x 770.88pt>
 File: images/51.png Graphic file (type png)
 
 <use images/51.png>
@@ -2251,7 +2341,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/52.png, id=414, 1371.1225pt x 770.88pt>
+<images/52.png, id=418, 1371.1225pt x 770.88pt>
 File: images/52.png Graphic file (type png)
  <use images/52.png>
 Package pdftex.def Info: images/52.png used on input line 2.
@@ -2286,7 +2376,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/6.jpg, id=432, 321.2pt x 220.825pt>
+ (./proyecto7.vrb <images/6.jpg, id=436, 321.2pt x 220.825pt>
 File: images/6.jpg Graphic file (type jpg)
 
 <use images/6.jpg>
@@ -2327,7 +2417,40 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 2.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.2 \[x_{1} = Gramos por porció
+                                n de Res\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.2 \[x_{1} = Gramos por porció
+                                n de Res\]
+? 
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 3.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.3 \[x_{2} = Gramos por porció
+                                n de Papa\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.3 \[x_{2} = Gramos por porció
+                                n de Papa\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2387,7 +2510,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/61.png, id=482, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/61.png, id=486, 1371.1225pt x 770.88pt>
 File: images/61.png Graphic file (type png)
 
 <use images/61.png>
@@ -2409,7 +2532,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/63.png, id=492, 1371.1225pt x 770.88pt>
+<images/63.png, id=496, 1371.1225pt x 770.88pt>
 File: images/63.png Graphic file (type png)
  <use images/63.png>
 Package pdftex.def Info: images/63.png used on input line 2.
@@ -2444,7 +2567,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/7.jpg, id=510, 444.15938pt x 250.68657pt>
+ (./proyecto7.vrb <images/7.jpg, id=514, 444.15938pt x 250.68657pt>
 File: images/7.jpg Graphic file (type jpg)
 
 <use images/7.jpg>
@@ -2536,7 +2659,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
-Overfull \vbox (93.68385pt too high) detected at line 418
+Overfull \vbox (93.68385pt too high) detected at line 435
  []
 
 
@@ -2554,7 +2677,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+Overfull \hbox (224.28444pt too wide) detected at line 3
+\OT1/mathkerncmss/m/sl/10.95 Z \OT1/cmss/m/n/10.95 = 65\OT1/mathkerncmss/m/sl/1
+0.95 A[] \OT1/cmss/m/n/10.95 + 100\OT1/mathkerncmss/m/sl/10.95 A[] \OT1/cmss/m/
+n/10.95 + 135\OT1/mathkerncmss/m/sl/10.95 A[] \OT1/cmss/m/n/10.95 + 160\OT1/mat
+hkerncmss/m/sl/10.95 A[] \OT1/cmss/m/n/10.95 + 190\OT1/mathkerncmss/m/sl/10.95 
+A[] \OT1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 B[] \OT1/cmss/m/n/10.9
+5 + 100\OT1/mathkerncmss/m/sl/10.95 B[] \OT1/cmss/m/n/10.95 + 135\OT1/mathkernc
+mss/m/sl/10.95 B[] \OT1/cmss/m/n/10.95 + 160\OT1/mathkerncmss/m/sl/10.95 B[] \O
+T1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 C[] \OT1/cmss/m/n/10.95 + 10
+0\OT1/mathkerncmss/m/sl/10.95 C[] \OT1/cmss/m/n/10.95 + 135\OT1/mathkerncmss/m/
+sl/10.95 C[] \OT1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 D[] \OT1/cmss
+/m/n/10.95 + 100\OT1/mathkerncmss/m/sl/10.95 D[] \OT1/cmss/m/n/10.95 + 65\OT1/m
+athkerncmss/m/sl/10.95 E[]
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2584,7 +2723,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+Overfull \hbox (224.28444pt too wide) detected at line 3
+\OT1/mathkerncmss/m/sl/10.95 Z \OT1/cmss/m/n/10.95 = 65\OT1/mathkerncmss/m/sl/1
+0.95 A[] \OT1/cmss/m/n/10.95 + 100\OT1/mathkerncmss/m/sl/10.95 A[] \OT1/cmss/m/
+n/10.95 + 135\OT1/mathkerncmss/m/sl/10.95 A[] \OT1/cmss/m/n/10.95 + 160\OT1/mat
+hkerncmss/m/sl/10.95 A[] \OT1/cmss/m/n/10.95 + 190\OT1/mathkerncmss/m/sl/10.95 
+A[] \OT1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 B[] \OT1/cmss/m/n/10.9
+5 + 100\OT1/mathkerncmss/m/sl/10.95 B[] \OT1/cmss/m/n/10.95 + 135\OT1/mathkernc
+mss/m/sl/10.95 B[] \OT1/cmss/m/n/10.95 + 160\OT1/mathkerncmss/m/sl/10.95 B[] \O
+T1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 C[] \OT1/cmss/m/n/10.95 + 10
+0\OT1/mathkerncmss/m/sl/10.95 C[] \OT1/cmss/m/n/10.95 + 135\OT1/mathkerncmss/m/
+sl/10.95 C[] \OT1/cmss/m/n/10.95 + 65\OT1/mathkerncmss/m/sl/10.95 D[] \OT1/cmss
+/m/n/10.95 + 100\OT1/mathkerncmss/m/sl/10.95 D[] \OT1/cmss/m/n/10.95 + 65\OT1/m
+athkerncmss/m/sl/10.95 E[]
+ []
+
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2599,7 +2754,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/72.png, id=580, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/72.png, id=582, 1371.1225pt x 770.88pt>
 File: images/72.png Graphic file (type png)
 
 <use images/72.png>
@@ -2621,7 +2776,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/71.png, id=590, 1371.1225pt x 770.88pt>
+<images/71.png, id=592, 1371.1225pt x 770.88pt>
 File: images/71.png Graphic file (type png)
  <use images/71.png>
 Package pdftex.def Info: images/71.png used on input line 2.
@@ -2642,6 +2797,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (122.48384pt too high) detected at line 489
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2656,7 +2815,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/8.jpeg, id=608, 171.64125pt x 93.34875pt>
+ (./proyecto7.vrb <images/8.jpeg, id=610, 171.64125pt x 93.34875pt>
 File: images/8.jpeg Graphic file (type jpg)
 
 <use images/8.jpeg>
@@ -2678,7 +2837,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
-Overfull \vbox (20.24493pt too high) detected at line 487
+Overfull \vbox (20.24493pt too high) detected at line 521
  []
 
 
@@ -2743,7 +2902,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 4.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.4 ...} =  Horas asignadas al operador KC el mié
+                                                  rcoles\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.4 ...} =  Horas asignadas al operador KC el mié
+                                                  rcoles\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2758,8 +2934,41 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
-Overfull \vbox (12.08382pt too high) detected at line 530
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 5.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.5 ...} =  Horas asignadas al operador DH el mié
+                                                  rcoles\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.5 ...} =  Horas asignadas al operador DH el mié
+                                                  rcoles\]
+? 
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 13.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.13 ... =  Horas asignadas al operador NK el mié
+                                                  rcoles\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.13 ... =  Horas asignadas al operador NK el mié
+                                                  rcoles\]
+? 
+Missing character: There is no � in font cmex10!
+)
+Overfull \vbox (77.78383pt too high) detected at line 564
  []
 
 
@@ -2823,7 +3032,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
-Overfull \vbox (9.95465pt too high) detected at line 575
+Overfull \vbox (73.79715pt too high) detected at line 609
  []
 
 
@@ -2842,6 +3051,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (60.19714pt too high) detected at line 625
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2857,6 +3070,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (60.19714pt too high) detected at line 641
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2887,6 +3104,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (50.09714pt too high) detected at line 667
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2902,6 +3123,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (2.29712pt too high) detected at line 678
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2917,6 +3142,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (19.39713pt too high) detected at line 691
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2932,6 +3161,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (19.39713pt too high) detected at line 703
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -2946,7 +3179,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/81.png, id=757, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb <images/81.png, id=760, 1371.1225pt x 770.88pt>
 File: images/81.png Graphic file (type png)
 
 <use images/81.png>
@@ -2968,7 +3201,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/82.png, id=767, 1371.1225pt x 770.88pt>
+<images/82.png, id=770, 1371.1225pt x 770.88pt>
 File: images/82.png Graphic file (type png)
  <use images/82.png>
 Package pdftex.def Info: images/82.png used on input line 2.
@@ -2989,7 +3222,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/83.png, id=778, 1371.1225pt x 770.88pt>
+<images/83.png, id=781, 1371.1225pt x 770.88pt>
 File: images/83.png Graphic file (type png)
  <use images/83.png>
 Package pdftex.def Info: images/83.png used on input line 2.
@@ -3010,7 +3243,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/84.png, id=789, 1371.1225pt x 770.88pt>
+<images/84.png, id=792, 1371.1225pt x 770.88pt>
 File: images/84.png Graphic file (type png)
  <use images/84.png>
 Package pdftex.def Info: images/84.png used on input line 2.
@@ -3031,6 +3264,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \vbox (19.39713pt too high) detected at line 729
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3045,13 +3282,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/9.jpg, id=807, 637.38126pt x 348.30125pt>
-File: images/9.jpg Graphic file (type jpg)
+ (./proyecto7.vrb)
+Overfull \vbox (2.29712pt too high) detected at line 740
+ []
 
-<use images/9.jpg>
-Package pdftex.def Info: images/9.jpg used on input line 4.
-(pdftex.def)             Requested size: 63.36867pt x 34.6249pt.
-)
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3063,12 +3298,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [89
 
- <./images/9.jpg>]
+]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
-Overfull \hbox (28.02017pt too wide) in paragraph at lines 2--712
-[][]  
+Overfull \vbox (2.29712pt too high) detected at line 751
  []
 
 
@@ -3101,7 +3335,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb <images/9.jpg, id=835, 637.38126pt x 348.30125pt>
+File: images/9.jpg Graphic file (type jpg)
+
+<use images/9.jpg>
+Package pdftex.def Info: images/9.jpg used on input line 4.
+(pdftex.def)             Requested size: 63.36867pt x 34.6249pt.
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3113,10 +3353,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [92
 
-]
+ <./images/9.jpg>]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
+Overfull \hbox (28.02017pt too wide) in paragraph at lines 2--784
+[][]  
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3161,7 +3406,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 3.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.3 \[x_{2} = Cucharadas de mantequillas de maní
+                                                 \]
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.3 \[x_{2} = Cucharadas de mantequillas de maní
+                                                 \]
+? 
+
+LaTeX Warning: Command \i invalid in math mode on input line 3.
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.3 \[x_{2} = Cucharadas de mantequillas de maní
+                                                 \]
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.3 ...{2} = Cucharadas de mantequillas de maní\]
+                                                  
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3191,7 +3468,64 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/92.png, id=882, 1371.1225pt x 770.88pt>
+ (./proyecto7.vrb)
+Overfull \vbox (4.89713pt too high) detected at line 818
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[98
+
+]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb)
+Overfull \vbox (43.18382pt too high) detected at line 831
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[99
+
+]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb)
+Overfull \vbox (60.68382pt too high) detected at line 847
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[100
+
+]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb <images/92.png, id=910, 1371.1225pt x 770.88pt>
 File: images/92.png Graphic file (type png)
 
 <use images/92.png>
@@ -3207,13 +3541,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[98
+[101
 
  <./images/92.png>]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb
-<images/91.png, id=892, 1371.1225pt x 770.88pt>
+<images/91.png, id=920, 1371.1225pt x 770.88pt>
 File: images/91.png Graphic file (type png)
  <use images/91.png>
 Package pdftex.def Info: images/91.png used on input line 2.
@@ -3228,60 +3562,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[99
-
- <./images/91.png>]
-\openout4 = `proyecto7.vrb'.
-
- (./proyecto7.vrb)
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[100
-
-]
-\openout4 = `proyecto7.vrb'.
-
- (./proyecto7.vrb <images/10.png, id=911, 536.0025pt x 401.5pt>
-File: images/10.png Graphic file (type png)
-
-<use images/10.png>
-Package pdftex.def Info: images/10.png used on input line 6.
-(pdftex.def)             Requested size: 63.36867pt x 47.46725pt.
-)
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[101
-
- <./images/10.png>]
-\openout4 = `proyecto7.vrb'.
-
- (./proyecto7.vrb)
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
 [102
 
-]
+ <./images/91.png>]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
@@ -3299,7 +3582,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb <images/10.png, id=939, 536.0025pt x 401.5pt>
+File: images/10.png Graphic file (type png)
+
+<use images/10.png>
+Package pdftex.def Info: images/10.png used on input line 5.
+(pdftex.def)             Requested size: 63.36867pt x 47.46725pt.
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3311,7 +3600,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [104
 
-]
+ <./images/10.png>]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
@@ -3374,7 +3663,56 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb)
+ (./proyecto7.vrb
+
+LaTeX Warning: Command \' invalid in math mode on input line 2.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.2 \[X_{1} = La cantidad de inversió
+                                      n para el activo 1\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.2 \[X_{1} = La cantidad de inversió
+                                      n para el activo 1\]
+? 
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 3.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.3 \[X_{2} = La cantidad de inversió
+                                      n para el activo 2\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.3 \[X_{2} = La cantidad de inversió
+                                      n para el activo 2\]
+? 
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 4.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.4 \[X_{3} = La cantidad de inversió
+                                      n para el activo 3\]
+? 
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.4 \[X_{3} = La cantidad de inversió
+                                      n para el activo 3\]
+? 
+Missing character: There is no � in font cmex10!
+)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3389,13 +3727,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb <images/102.png, id=987, 1371.1225pt x 770.88pt>
-File: images/102.png Graphic file (type png)
-
-<use images/102.png>
-Package pdftex.def Info: images/102.png used on input line 2.
-(pdftex.def)             Requested size: 285.16142pt x 160.32513pt.
-)
+ (./proyecto7.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3407,16 +3739,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [110
 
- <./images/102.png>]
+]
 \openout4 = `proyecto7.vrb'.
 
- (./proyecto7.vrb
-<images/101.png, id=997, 1371.1225pt x 770.88pt>
-File: images/101.png Graphic file (type png)
- <use images/101.png>
-Package pdftex.def Info: images/101.png used on input line 2.
-(pdftex.def)             Requested size: 285.16142pt x 160.32513pt.
-)
+ (./proyecto7.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -3428,7 +3754,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [111
 
- <./images/101.png>]
+]
 \openout4 = `proyecto7.vrb'.
 
  (./proyecto7.vrb)
@@ -3444,6 +3770,63 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [112
 
 ]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb <images/102.png, id=1013, 1371.1225pt x 770.88pt>
+File: images/102.png Graphic file (type png)
+
+<use images/102.png>
+Package pdftex.def Info: images/102.png used on input line 2.
+(pdftex.def)             Requested size: 285.16142pt x 160.32513pt.
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[113
+
+ <./images/102.png>]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb
+<images/101.png, id=1023, 1371.1225pt x 770.88pt>
+File: images/101.png Graphic file (type png)
+ <use images/101.png>
+Package pdftex.def Info: images/101.png used on input line 2.
+(pdftex.def)             Requested size: 285.16142pt x 160.32513pt.
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[114
+
+ <./images/101.png>]
+\openout4 = `proyecto7.vrb'.
+
+ (./proyecto7.vrb)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[115
+
+]
 \tf@nav=\write6
 \openout6 = `proyecto7.nav'.
 
@@ -3453,23 +3836,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `proyecto7.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 854.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 854.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
  (./proyecto7.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 854.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 854.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
+Package rerunfilecheck Info: File `proyecto7.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-
-Package rerunfilecheck Warning: File `proyecto7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `proyecto7.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -3479,24 +3856,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29011 strings out of 493013
- 565787 string characters out of 6135682
- 627544 words of memory out of 5000000
- 31551 multiletter control sequences out of 15000+600000
+ 29269 strings out of 493013
+ 568206 string characters out of 6135682
+ 632388 words of memory out of 5000000
+ 31789 multiletter control sequences out of 15000+600000
  12643 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,18n,63p,10421b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on proyecto7.pdf (112 pages, 2045742 bytes).
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on proyecto7.pdf (115 pages, 2079860 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 887 compressed objects within 9 object streams
- 225 named destinations out of 1000 (max. 500000)
+ 1129 PDF objects out of 1200 (max. 8388607)
+ 916 compressed objects within 10 object streams
+ 231 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

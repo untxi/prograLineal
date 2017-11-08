@@ -6,9 +6,9 @@
 \graphicspath{ {images/} }
 
 \usetheme[titlepagelogo=tec,% Logo for the first page
-		  language=spanish,
-		  bullet=triangle,
-		  color=green,
+          language=spanish,
+          bullet=triangle,
+          color=green,
          ]{TorinoTh}
          
 \usepackage[beamer,customcolors]{hf-tikz}
@@ -31,34 +31,34 @@ La empresa Whitt Windows tiene solo tres empleados que hacen dos tipos de ventan
 \begin{wrapfigure}{l}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{1}
-\end{wrapfigure}
-\\La compañía desea determinar cuántas ventanas de cada tipo producir al día para maximizar la ganancia total.\\
+\end{wrapfigure}\\
+La compañía desea determinar cuántas ventanas de cada tipo producir al día para maximizar la ganancia total.\\
 
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-Marco de madera  = X1\\
-Marco de Aluminio = X2
+Marco de madera  = \(X_{1}\) \\
+Marco de Aluminio = \(X_{2}\)
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Maximizar\\
-Z = 60X1 + 30X2
+\[Z = 60X_{1} + 30X_{2}\]
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-6X1 + 8X2 <= 48\\
-	X1 <= 6\\
-	X2 <= 4\\
+\[6X_{1} + 8X_{2} <= 48\]
+\[  X_{1} <= 6\]
+\[  X_{2} <= 4\]
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Maximizar\\
-Z = 60X1 + 30X2\\
+\[Z = 60X_{1} + 30X_{2}\]
 Sujeto a :\\
-	6X1 + 8X2 <= 48\\
-	X1 <= 6\\
-	X2 <= 4\\
+\[  6X_{1} + 8X_{2} <= 48\]
+\[  X_{1} <= 6\]
+\[  X_{2} <= 4\]
 \end{frame}
 
 \begin{frame}[fragile]{Solución LINGO}
@@ -70,6 +70,9 @@ Sujeto a :\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 405.0000\]
+\[X_{1} = 6.0000\]
+\[X_{2} = 1.5000\]
 \end{frame}
 
 %Problema 2
@@ -85,31 +88,30 @@ Por cada unidad del producto 1 se requieren 1 unidad de partes de metal y 2 unid
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-P1 = producto 1\\
-P2 = producto 2
+\[P_{1} = producto 1\]
+\[P_{2} = producto 2\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Maximizar:\\
-Z = P1 + 2P2
+\[Z = P_{1} + 2P_{2}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-P1 + 3P2  <= 200\\
-2P1 + 2P2 <= 300\\
-P2 <= 60\\
-
+\[P_{1} + 3P_{2}  <= 200\]
+\[2P_{1} + 2P_{2} <= 300\]
+\[P_{2} <= 60\]
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Maximizar:\\
-Z = P1 + 2P2\\
-sujeto a :\\
-P1 + 3P2  <= 200\\
-2P1 + 2P2 <= 300\\
-P2 <= 60\\
+\[Z = P_{1} + 2P_{2}\]
+Sujeto a :\\
+\[P1 + 3P2  <= 200\]
+\[2P1 + 2P2 <= 300\]
+\[P2 <= 60\]
 \end{frame}
 
 \begin{frame}[fragile]{Solución LINGO}
@@ -120,6 +122,9 @@ P2 <= 60\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 175.0000\]
+\[P_{1} = 125.0000\]
+\[P_{2} = 25.0000\]
 \end{frame}
 
 %Problema 3
@@ -148,36 +153,35 @@ Reclamaciones & 2 & 0 & 1200 \\
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-X1 = seguro de riesgo especial\\
-X2 = hipoteca\\
+\[X_{1} = seguro de riesgo especial\]
+\[X_{2} = hipoteca\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Maximizar:\\
-Z = 5X1 + 2X2
-
+\[Z = 5X_{1} + 2X_{2}\]
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-3X1 + 2X2 <= 2400\\
-X2 <= 800\\
-2X1 <= 1200\\
-X1, X2 > 0\\
+\[3X_{1} + 2X_{2} <= 2400\]
+\[X_{2} <= 800\]
+\[2X_{1} <= 1200\]
+\[X_{1}, X_{2} > 0\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Maximizar:\\
-Z = 5X1 + 2X2\\
+\[Z = 5X_{1} + 2X_{2}\]
 
-sujeto a :\\
-3X1 + 2X2 <= 2400\\
-X2 <= 800\\
-2X1 <= 1200\\
-X1, X2 > 0\\
-
+Sujeto a :\\
+\[3X_{1} + 2X_{2} <= 2400\]
+\[X_{2} <= 800\]
+\[2X_{1} <= 1200\]
+\[X_{1}, X_{2} > 0\]
 \end{frame}
+
 \begin{frame}[fragile]{Solución LINGO}
     \includegraphics[width=0.9\textwidth]{32}
 \end{frame}
@@ -186,6 +190,9 @@ X1, X2 > 0\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 3 600.0000\]
+\[X_{1} = 600.0000\]
+\[X_{2} = 300.0000\]
 \end{frame}
 
 %Problema 4
@@ -197,35 +204,36 @@ Weenies and Buns es una planta procesadora de alimentos que fabrica hotdogs y pa
     \includegraphics[width=0.20\textwidth]{4}
 \end{wrapfigure}
 \end{frame}
+
 \begin{frame}[t,fragile]{Problema  3.1-9}
 Cada hotdog requiere 0.25 libras de producto de puerco. Se cuenta con suficiente cantidad del resto de los ingredientes de ambos productos. Por último, la mano de obra consiste en 5 empleados de tiempo completo (40 horas por semana). Cada hotdog requiere 3 minutos de mano de obra y cada pan requiere 2 minutos de mano de obra. Cada hotdog proporciona una ganancia de \$0.20 y cada pan de \$0.10. Weenies and Buns desea saber cuántos hotdogs y cuántos panes deben producir cada semana para lograr la ganancia más alta posible.
 \end{frame}
 \begin{frame}[fragile]{Variables de Decisión}
-P = cantidad de panes para hot dog\\
-H = cantidad de hot dog
+\[P = cantidad de panes para hot dog\]
+\[H = cantidad de hot dog\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Maximizar:\\
-Z = 0.2H + 0.1P
+\[Z = 0.2H + 0.1P\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-0.1P <= 200\\
-0.25H <= 800\\
-2P + 3H <= 1200, y que estamos en minutos ,por lo tanto son 5 empleados que trabajan 40 horas por semana, lo cual es 2400 minutos , ahora son 5 , por lo tanto hay disponible 12 000 minutos.
+\[0.1P <= 200\]
+\[0.25H <= 800\]
+\[2P + 3H <= 1200, y que estamos en minutos, por lo tanto son 5 empleados que trabajan 40 horas por semana, lo cual es 2400 minutos, ahora son 5, por lo tanto hay disponible 12 000 minutos.\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Maximizar:\\
-Z = 0.2H + 0.1P\\
+ \[Z = 0.2H + 0.1P\]
 sujeto a:\\
-0.1P <= 200\\
-0.25H <= 800\\
-2P + 3H <= 1200, y que estamos en minutos, por lo tanto son 5 empleados que trabajan 40 horas por semana, lo cual es 2400 minutos , ahora son 5 , por lo tanto hay disponible 12 000 minutos.
+\[0.1P <= 200\]
+\[0.25H <= 800\]
+\[2P + 3H <= 1200, y que estamos en minutos, por lo tanto son 5 empleados que trabajan 40 horas por semana, lo cual es 2400 minutos, ahora son 5, por lo tanto hay disponible 12 000 minutos.\]
 \end{frame}
 
 \begin{frame}[fragile]{Solución LINGO}
@@ -236,6 +244,9 @@ sujeto a:\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 760.0000\]
+\[H = 3 200.0000\]
+\[P = 1 200.0000\]
 \end{frame}
 
 %Problema 5
@@ -252,32 +263,32 @@ Como de todas formas usted busca un trabajo de verano interesante (máximo 600 h
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-P1 = participacion Amigo 1\\
-P2 = participacion Amigo 2
+\[P_{1} = participación Amigo 1\]
+\[P_{2} = participación Amigo 2\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Maximizar\\
-Z = 4500P1 + 4500P2
+\[Z = 4500P_{1} + 4500P_{2}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-5000P1 + 4000P2 <= 6000 inversión total\\
-400P1 + 5000P2 <= 600 horas disponible\\
-P1, P2 > 0\\
+\[5000P_{1} + 4000P_{2} <= 6000 inversión total\]
+\[400P_{1} + 5000P_{2} <= 600 horas disponible\]
+\[P_{1}, P_{2} > 0\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Maximizar\\
-Z = 4500P1 + 4500P2\\
+\[Z = 4500P_{1} + 4500P_{2}\]
 
-sujeto a:\\
-5000P1 + 4000P2 <= 6000 inversión total\\
-400P1 + 5000P2 <= 600 horas disponible\\
-P1, P2 > 0\\
+Sujeto a:\\
+\[5000P_{1} + 4000P_{2} <= 6000 inversión total\]
+\[400P_{1} + 5000P_{2} <= 600 horas disponible\]
+\[P_{1}, P_{2} > 0\]
 
 \end{frame}
 
@@ -289,6 +300,9 @@ P1, P2 > 0\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 6 000.0000\]
+\[P_{1} = 0.6666667\]
+\[P_{2} = 0.6666667\]
 \end{frame}
 
 %Problema 6
@@ -319,33 +333,33 @@ Ralph requiere determinar el número de porciones diarias (pueden ser fraccionar
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-X1 = Gramos por porción de Res\\
-X2 = Gramos por porción de Papa
+\[x_{1} = Gramos por porción de Res\]
+\[x_{2} = Gramos por porción de Papa\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Minimizar\\
-Z = 4X1 + 2X2
+\[Z = 4x_{1} + 2x_{2}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-5x1 + 15X2 >= 50\\
-20X1 +5X2 >= 40\\
-15X1 + 2X2 <= 60\\
-X1 , X2 >= 0\\
+\[5x_{1} + 15x_{2} >= 50\]
+\[20x_{1} +5x_{2} >= 40\]
+\[15x_{1} + 2x_{2} <=60\]
+\[x_{1} , x_{2} >= 0\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Minimizar\\
-Z = 4X1 + 2X2\\
+\[Z = 4x_{1} + 2x_{2}\]
 Sujeto a :\\
-5x1 + 15X2 >= 50\\
-20X1 +5X2 >= 40\\
-15X1 + 2X2 <= 60\\
-X1, >= 0\\
+\[5x_{1} + 15x_{2} >= 50\]
+\[20x_{1} +5x_{2} >= 40\]
+\[15x_{1} + 2x_{2} <= 60\]
+\[x_{1}, >= 0\]
 \end{frame}
 
 \begin{frame}[fragile]{Solución LINGO}
@@ -356,6 +370,9 @@ X1, >= 0\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 10.90909\]
+\[X_{1} = 1.2727\]
+\[X_{2} = 2.909091\]
 \end{frame}
 
 %Problema 7
@@ -395,52 +412,52 @@ Debemos pensar en los .meses que vamos a arrendar, podemos arrendar el espacio m
 
 \end{frame}
 \begin{frame}[fragile]{Variables de Decisión}
-A1 = Espacio a arrendar el primer mes por el periodo de 1 mes\\
-A2 = Espacio a arrendar el primer mes por el periodo de 2 meses\\
-A3 = Espacio a arrendar el primer mes por el periodo de 3 meses\\
-A4 = Espacio a arrendar el primer mes por el periodo de 4 meses\\
-A5 = Espacio a arrendar el primer mes por el periodo de 5 meses\\
-B1 = Espacio a arrendar el segundo mes por el periodo de 1 mes\\
-B2 = Espacio a arrendar el segundo mes por el periodo de 2 meses\\
-B3 = Espacio a arrendar el segundo mes por el periodo de 3 meses\\
-B4 = Espacio a arrendar el segundo mes por el periodo de 4 meses\\
-B5 = No tiene sentido, no se puede\\
-C1 = Espacio a arrendar el tercer mes por el periodo de 1 mes\\
-C2 = Espacio a arrendar el tercer mes por el periodo de 2 meses\\
-C3 = Espacio a arrendar el tercer mes por el periodo de 3 meses\\
-C4 y C5 =  No tiene sentido, no se puede.\\
-D1 = Espacio a arrendar el cuarto mes por el periodo de 1 mes\\
-D2 = Espacio a arrendar el cuarto mes por el periodo de 2 meses\\
-D3, D4 y D5 =  No tiene sentido, no se puede.\\
-E1 = Espacio a arrendar el quinto mes por el periodo de 1 mes\\
-E2 , E3, E4 y E5 =  No tiene sentido, no se puede.\\
+\(A_{1}\) = Espacio a arrendar el primer mes por el periodo de 1 mes\\
+\(A_{2}\) = Espacio a arrendar el primer mes por el periodo de 2 meses\\
+\(A_{3}\) = Espacio a arrendar el primer mes por el periodo de 3 meses\\
+\(A_{4}\) = Espacio a arrendar el primer mes por el periodo de 4 meses\\
+\(A_{5}\) = Espacio a arrendar el primer mes por el periodo de 5 meses\\
+\(B_{1}\) = Espacio a arrendar el segundo mes por el periodo de 1 mes\\
+\(B_{2}\) = Espacio a arrendar el segundo mes por el periodo de 2 meses\\
+\(B_{3}\) = Espacio a arrendar el segundo mes por el periodo de 3 meses\\
+\(B_{4}\) = Espacio a arrendar el segundo mes por el periodo de 4 meses\\
+\(B_{5}\) = No tiene sentido, no se puede\\
+\(C_{1}\) = Espacio a arrendar el tercer mes por el periodo de 1 mes\\
+\(C_{2}\) = Espacio a arrendar el tercer mes por el periodo de 2 meses\\
+\(C_{3}\) = Espacio a arrendar el tercer mes por el periodo de 3 meses\\
+\(C_{4}\) y C5 =  No tiene sentido, no se puede.\\
+\(D_{1}\) = Espacio a arrendar el cuarto mes por el periodo de 1 mes\\
+\(D_{2}\) = Espacio a arrendar el cuarto mes por el periodo de 2 meses\\
+\(D_{3}, D_{4} y D_{5}\) =  No tiene sentido, no se puede.\\
+\(E_{1}\) = Espacio a arrendar el quinto mes por el periodo de 1 mes\\
+\(E_{2} , E_{3}, E_{4}, E_{5}\) =  No tiene sentido, no se puede.\\
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Minimizar\\
-Z = 65 A1 + 100 A2 + 135 A3 + 160 A4 + 190 A5 + 65 B1 + 100 B2 + 135 B3 + 160 B4 + 65 C1 + 100 C2 + 135 C3 + 65 D1 + 100 D2 + 65 E1
+\[Z = 65 A_{1} + 100 A_{2} + 135 A_{3} + 160 A_{4} + 190 A_{5} + 65 B_{1} + 100 B_{2} + 135 B_{3} + 160 B_{4} + 65 C_{1} + 100 C_{2} + 135 C_{3} + 65 D_{1} + 100 D_{2} + 65 E_{1}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-MES 1: A1 + A2 + A3 + A4 + A5 >= 30.000 \\
-MES 2: A2 + A3 + A4 + A5 + B1 + B2 + B3 + B4 >= 20.000 \\
-MES 3: A3 + A4 + A5 + B2 + B3 + B4 + C1 + C2 + C3 >= 40.000 \\
-MES 4: A4 + A5 + B3 + B4 + C2 + C3 + D1 + D2 >= 10.000\\
-MES 5: A5 + B4  + C3 + D2 +E1 = 50.000\\
+\[MES 1: A_{1} + A_{2} + A_{3} + A_{4} + A_{5} >= 30.000 \]
+\[MES 2: A_{2} + A_{3} + A_{4} + A_{5} + B_{1} + B_{2} + B_{3} + B_{4} >= 20.000 \]
+\[MES 3: A_{3} + A_{4} + A_{5} + B_{2} + B_{3} + B_{4} + C_{1} + C_{2} + C_{3} >= 40.000 \]
+\[MES 4: A_{4} + A_{5} + B_{3} + B_{4} + C_{2} + C_{3} + D_{1} + D_{2} >= 10.000\]
+\[MES 5: A_{5} + B_{4}  + C_{3} + D_{2} + E_{1} = 50.000\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Minimizar\\
-Z = 65 A1 + 100 A2 + 135 A3 + 160 A4 + 190 A5 + 65 B1 + 100 B2 + 135 B3 + 160 B4 + 65 C1 + 100 C2 + 135 C3 + 65 D1 + 100 D2 + 65 E1\\
+\[Z = 65 A_{1} + 100 A_{2} + 135 A_{3} + 160 A_{4} + 190 A_{5} + 65 B_{1} + 100 B_{2} + 135 B_{3} + 160 B_{4} + 65 C_{1} + 100 C_{2} + 135 C_{3} + 65 D_{1} + 100 D_{2} + 65 E_{1}\]
 Sujeto a :\\
-A1 + A2 + A3 + A4 + A5 >= 30.000 \\
-A2 + A3 + A4 + A5 + B1 + B2 + B3 + B4 >= 20.000 \\
-A3 + A4 + A5 + B2 + B3 + B4 + C1 + C2 + C3 >= 40.000 \\
-A4 + A5 + B3 + B4 + C2 + C3 + D1 + D2 >= 10.000\\
-A5 + B4  + C3 + D2 +E1 = 50.000
+\[A_{1} + A_{2} + A_{3} + A_{4} + A_{5} >= 30.000 \]
+\[A_{2} + A_{3} + A_{4} + A_{5} + B_{1} + B_{2} + B_{3} + B_{4} >= 20.000 \]
+\[A_{3} + A_{4} + A_{5} + B_{2} + B_{3} + B_{4} + C_{1} + C_{2} + C_{3} >= 40.000 \]
+\[A_{4} + A_{5} + B_{3} + B_{4} + C_{2} + C_{3} + D_{1} + D_{2} >= 10.000\]
+\[A_{5} + B_{4}  + C_{3} + D_{2} +E_{1} = 50.000\]
 
 \end{frame}
 
@@ -452,6 +469,23 @@ A5 + B4  + C3 + D2 +E1 = 50.000
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 7650000\]
+\[A_{1} = 0.0000\]
+\[A_{2} = 0.0000\]
+\[A_{3} = 0.0000\]
+\[A_{4} = 0.0000\]
+\[A_{5} = 30 000.00\]
+\[B_{1} = 0.0000\]
+\[B_{2} = 0.0000\]
+\[B_{3} = 0.0000\]
+\[B_{4} = 0.0000\]
+\[C_{1} = 10 000.00\]
+\[C_{2} = 0.0000\]
+\[C_{3} = 0.0000\]
+\[D_{1} = 0.0000\]
+\[D_{2} = 0.0000\]
+\[E_{1} = 20 000.00\]
+
 \end{frame}
 
 %Problema 8
@@ -498,174 +532,174 @@ El centro de computo debe abrir de 8 am a 10 pm de lunes a viernes con un operad
 \end{frame}
 \begin{frame}{Análisis}
 Se requiere minimizar el costo  de las horas de cada operador en cada día. 
-Para ello, podemos ver como una “matriz” Xij, donde  i es cada operador, y j es el día de la semana (i = KC, DH, HB, SC, KS, NK;  j = lu, ma, mi, ju, vi).
+Para ello, podemos ver como una “matriz” \(X_{ij}\), donde  i es cada operador, y j es el día de la semana (i = KC, DH, HB, SC, KS, NK;  j = lu, ma, mi, ju, vi).
 Z = costo (salario * tiempo max disponible por trabajador * horas asignadas)
 
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-X11 =  Horas asignadas al operador KC el lunes\\
-X12 = Horas asignadas al operador KC el martes\\
-X13 =  Horas asignadas al operador KC el miércoles\\
-X14    = Horas asignadas al operador KC el jueves\\
-X15 =  Horas asignadas al operador KC el viernes\\
+\[x_{11} =  Horas asignadas al operador KC el lunes\]
+\[x_{12} = Horas asignadas al operador KC el martes\]
+\[x_{13} =  Horas asignadas al operador KC el miércoles\]
+\[x_{14}   = Horas asignadas al operador KC el jueves\]
+\[x_{15} =  Horas asignadas al operador KC el viernes\]
 \end{frame}
 \begin{frame}[fragile]{Variables de Decisión}
 Lo mismo para  el operador 2 DH\\
-X21 =  Horas asignadas al operador DH el lunes\\
-X22    = Horas asignadas al operador DH el martes\\
-X23 =  Horas asignadas al operador DH el miércoles\\
-X24    = Horas asignadas al operador DH el jueves\\
-X25 =  Horas asignadas al operador DH el viernes\\
+\[x_{21} =  Horas asignadas al operador DH el lunes\]
+\[x_{22} = Horas asignadas al operador DH el martes\]
+\[x_{23} =  Horas asignadas al operador DH el miércoles\]
+\[x_{24} = Horas asignadas al operador DH el jueves\]
+\[x_{25} =  Horas asignadas al operador DH el viernes\]
 
 ...\\
-Lo mismo para el operador 6 NK\\
-    X61 =  Horas asignadas al operador NK el lunes\\
-X62    = Horas asignadas al operador NK el martes\\
-X63 =  Horas asignadas al operador NK el miércoles\\
-X64    = Horas asignadas al operador NK el jueves\\
-X65 =  Horas asignadas al operador NK el viernes\\
+\[Lo mismo para el operador 6 NK\]
+\[X_{61} =  Horas asignadas al operador NK el lunes\]
+\[X_{62} = Horas asignadas al operador NK el martes\]
+\[X_{63} =  Horas asignadas al operador NK el miércoles\]
+\[X_{64} = Horas asignadas al operador NK el jueves\]
+\[X_{65} =  Horas asignadas al operador NK el viernes\]
 
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Minimizar
-Z = 10.00 (X11 + X12 +X13+X14 +X15) \\
-+ 10.10 (X21 + X22 +X23+X24 + X25)\\
-+  9.90 (X31 + X32 +X33+X34 +X35)\\
-+ 9.80  (X41 + X42 +X43+X44 +X45)\\
-+ 10.80  (X51 + X52 +X53+X54 +X55)\\
-+ 11.30  (X61 + X62 +X63+X64 +X65)\\
+\[Z = 10.00 (x_{11} + x_{12} +x_{13}+x_{14} +x_{15}) \]
+\[+ 10.10 (x_{21} + x_{22} +x_{23}+x_{24} + x_{25})\]
+\[+  9.90 (X_{31} + X_{32} +X_{33}+X_{34} +X_{35})\]
+\[+ 9.80  (X_{41} + X_{42} +X_{43}+X_{44} +X_{45})\]
+\[+ 10.80  (X_{51} + X_{52} +X_{53}+X_{54} +X_{55})\]
+\[+ 11.30  (X_{61} + X_{62} +X_{63}+X_{64} +X_{65}\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
 /* Restricciones  de mínimo número de horas a la semana K.C., D.H., H.B. y S.C. = 8, K.S. y N.K. = 7. */\\
-X11 + X12 +X13+X14 +X15 >=8\\
-X21 + X22 +X23+X24 + X25 >= 8\\
-X31 + X32 +X33+X34 +X35 >= 8\\
-X41 + X42 +X43+X44 +X45 >= 8\\
-X51 + X52 +X53+X54 +X55 >= 7\\
-X61 + X62 +X63+X64 +X65 >= 7\\
+\[x_{1}1 + x_{12} +x_{1}3+x_{1}4 +x_{1}5 >=8\]
+\[x_{2}1 + x_{22} +x_{2}3+x_{2}4 + x_{2}5 >= 8\]
+\[X_{31} + X_{32} +X_{33}+X_{34} +X_{35} >= 8\]
+\[X_{41} + X_{42} +X_{43}+X_{44} +X_{45} >= 8\]
+\[X_{51} + X_{52} +X_{53}+X_{54} +X_{55} >= 7\]
+\[X_{61} + X_{62} +X_{63}+X_{64} +X_{65} >= 7\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
 /* El centro de cómputo abre de 8 am hasta 10 pm  (14 horas), donde siempre hay un operador, esto para toda la semana*/\\
-Lunes => X11 + X21 + X31 +X41 + X51 +X61 = 14  \\
-Martes=> X12 + X22 + X32 +X42 + X52 + X62 = 14\\
-Miercoles=> X13 + X23 + X33 +X43 + X53 +X63 = 14\\
-Jueves => X14 + X24 + X34 +X44 + X54 +X64 = 14\\
-Viernes => X15 + X25 + X35 +X45 + X55 +X65 = 14  \\
+\[Lunes => x_{11} + x_{21} + X_{31} +X_{41} + X_{51} +X_{61} = 14  \]
+\[Martes=> x_{12} + x_{22} + X_{32} +X_{42} + X_{52} + X_{62} = 14\]
+\[Miercoles=> x_{13} + x_{23} + X_{33} +X_{43} + X_{53} +X_{63} = 14\]
+\[Jueves => x_{14} + x_{24} + X_{34} +X_{44} + X_{54} +X_{64} = 14\]
+\[Viernes => x_{15} + x_{25} + X_{35} +X_{45} + X_{55} +X_{65} = 14  \]
 
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
 /* Horas disponibles por día, para cada trabajador*/\\
 Operador 1\\
-    X11 <= 6\\
-    X12 = 0\\
-    X13 <= 6\\
-    X14  = 0\\
-    X15 <= 6\\
+    \[x_{11} <= 6\]
+    \[x_{12} = 0\]
+    \[x_{13} <= 6\]
+    \[x_{14}  = 0\]
+    \[x_{15} <= 6\]
 Operador 2\\
-    X21 = 0 \\
-    X22 <= 6\\
-    X23 = 0\\
-    X24  <= 6\\
-    X25 = 0\\
+    \[x_{21} = 0 \]
+    \[x_{22} <= 6\]
+    \[x_{23} = 0\]
+    \[x_{24}  <= 6\]
+    \[x_{25} = 0\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
 Operador 3\\
-    X31 <= 4 \\
-    X32 <= 8\\
-    X33 <= 4\\
-    X34  = 0\\
-    X35 <= 4\\
+    \[X_{31} <= 4 \]
+    \[X_{32} <= 8\]
+    \[X_{33} <= 4\]
+    \[X_{34}  = 0\]
+    \[X_{35} <= 4\]
 
 
 Operador 4\\
-    X41 <= 5\\ 
-    X42 <= 5\\
-    X43 <= 5\\
-    X44  = 0\\
-    X45 <= 5\\
+    \[X_{41} <= 5\]
+    \[X_{42} <= 5\]
+    \[X_{43} <= 5\]
+    \[X_{44}  = 0\]
+    \[X_{45} <= 5\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
 Operador 5\\
-    X51 <= 3\\ 
-    X52 = 0\\
-    X53 = 0\\
-    X54  <=  8\\
-    X55 = 0\\
+    \[X_{51} <= 3\]
+    \[X_{52} = 0\]
+    \[X_{53} = 0\]
+    \[X_{54}  <=  8\]
+    \[X_{55} = 0\]
 
 Operador 6\\
-    X61 = 0 \\
-    X62 = 0\\
-    X63 = 0\\
-    X64  <=  6\\
-    X65 <= 2\\
+    \[X_{61} = 0 \]
+    \[X_{62} = 0\]
+    \[X_{63} = 0\]
+    \[X_{64}  <=  6\]
+    \[X_{65} <= 2\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Minimizar\\
-    Z = 10.00 (X11 + X12 +X13+X14 +X15) \\
-      + 10.10 (X21 + X22 +X23+X24 + X25)\\
-      +  9.90 (X31 + X32 +X33+X34 +X35)\\
-      + 9.80  (X41 + X42 +X43+X44 +X45)\\
-      + 10.80  (X51 + X52 +X53+X54 +X55)\\
-      + 11.30  (X61 + X62 +X63+X64 +X65)\\
+    \[Z = 10.00 (x_{11} + x_{12} +x_{13}+x_{14} +x_{15}) \]
+      \[+ 10.10 (x_{21} + x_{22} +x_{23}+x_{24} + x_{25})\]
+      \[+  9.90 (X_{31} + X_{32} +X_{33}+X_{34} +X_{35})\]
+      \[+ 9.80  (X_{41} + X_{42} +X_{43}+X_{44} +X_{45})\]
+      \[+ 10.80  (X_{51} + X_{52} +X_{53}+X_{54} +X_{55})\]
+      \[+ 11.30  (X_{61} + X_{62} +X_{63}+X_{64} +X_{65})\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Sujeto a :\\
-X11 + X12 +X13+X14 +X15 >=8\\
-X21 + X22 +X23+X24 + X25 >= 8\\
-X31 + X32 +X33+X34 +X35 >= 8\\
-X41 + X42 +X43+X44 +X45 >= 8\\
-X51 + X52 +X53+X54 +X55 >= 7\\
-X61 + X62 +X63+X64 +X65 >= 7\\
-X11 + X21 + X31 +X41 + X51 +X61 = 14  \\
-X12 + X22 + X32 +X42 + X52 + X62 = 14\\
-X13 + X23 + X33 +X43 + X53 +X63 = 14\\
-X14 + X24 + X34 +X44 + X54 +X64 = 14\\
-X15 + X25 + X35 +X45 + X55 +X65 = 14  \\
+\[x_{11} + x_{12} +x_{13}+x_{14} +x_{15} >=8\]
+\[x_{21} + x_{22} +x_{23}+x_{24} + x_{25} >= 8\]
+\[X_{31} + X_{32} +X_{33}+X_{34} +X_{35} >= 8\]
+\[X_{41} + X_{42} +X_{43}+X_{44} +X_{45} >= 8\]
+\[X_{51} + X_{52} +X_{53}+X_{54} +X_{55} >= 7\]
+\[X_{61} + X_{62} +X_{63}+X_{64} +X_{65} >= 7\]
+\[x_{11} + x_{2}1 + X_{31} +X_{41} + X_{51} +X_{61} = 14  \]
+\[x_{12} + x_{22} + X_{32} +X_{42} + X_{52} + X_{62} = 14\]
+\[x_{13} + x_{23} + X_{33} +X_{43} + X_{53} +X_{63} = 14\]
+\[x_{14} + x_{24} + X_{34} +X_{44} + X_{54} +X_{64} = 14\]
+\[x_{15} + x_{25} + X_{35} +X_{45} + X_{55} +X_{65} = 14  \]
 \end{frame}
 \begin{frame}[fragile]{Modelo Completo}
-X11 <= 6\\
-        X12 = 0\\
-        X13 <= 6\\
-        X14  = 0\\
-        X15 <= 6\\
-        X21 = 0 \\
-        X22 <= 6\\
-        X23 = 0\\
-        X24  <= 6\\
+\[x_{11} <= 6\]
+        \[x_{12} = 0\]
+        \[x_{13} <= 6\]
+        \[x_{14}  = 0\]
+        \[x_{15} <= 6\]
+        \[x_{21} = 0 \]
+        \[x_{22} <= 6\]
+        \[x_{23} = 0\]
+        \[x_{24}  <= 6\]
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
-X31 <= 4 \\
-X32 <= 8\\
-X33 <= 4\\
-X34  = 0\\
-X35 <= 4\\
-X41 <= 5 \\
-X42 <= 5\\
-X43 <= 5\\
-X44  = 0\\
-X45 <= 5\\
+\[X_{31} <= 4 \]
+\[X_{32} <= 8\]
+\[X_{33} <= 4\]
+\[X_{34}  = 0\]
+\[X_{35} <= 4\]
+\[X_{41} <= 5 \]
+\[X_{42} <= 5\]
+\[X_{43} <= 5\]
+\[X_{44} = 0\]
+\[X_{45} <= 5\]
 \end{frame}
 \begin{frame}[fragile]{Modelo Completo}
-X51 <= 3 \\
-X52 = 0\\
-X53 = 0\\
-X54  <=  8\\
-X55 = 0\\
-X61 = 0 \\
-X62 = 0\\
-X63 = 0\\
-X64  <=  6\\
-X65 <= 2\\
+\[X_{51} <= 3 \]
+\[X_{52} = 0\]
+\[X_{53} = 0\]
+\[X_{54}  <=  8\]
+\[X_{55} = 0\]
+\[X_{61} = 0 \]
+\[X_{62} = 0\]
+\[X_{63} = 0\]
+\[X_{64}  <=  6\]
+\[X_{65} <= 2\]
 \end{frame}
 
 \begin{frame}[fragile]{Solución LINGO}
@@ -682,6 +716,44 @@ X65 <= 2\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 709.7000 \]
+\[X_{11} = 2\]
+\[X_{12} = 0\]
+\[X_{13} = 5\]
+\[X_{14} = 0\]
+\[X_{15} = 3\]
+\[X_{21} = 0\]
+\[X_{22} = 3\]
+\[X_{23} = 0\]
+\[X_{24} = 5\]
+\end{frame}
+\begin{frame}[fragile]{Solución Final}
+\[X_{25} = 0\]
+\[X_{31} = 4\]
+\[X_{32} = 6\]
+\[X_{33} = 4\]
+\[X_{34} = 0\]
+\[X_{35} = 4\]
+\[X_{41} = 5\]
+\[X_{42} = 5\]
+\[X_{43} = 5\]
+\end{frame}
+\begin{frame}[fragile]{Solución Final}
+\[X_{44} = 0\]
+\[X_{45} = 5\]
+\[X_{51} = 3\]
+\[X_{52} = 0\]
+\[X_{53} = 0\]
+\[X_{53} = 4\]
+\[X_{54} = 0\]
+\[X_{55} = 0\]
+\[X_{61} = 0\]
+\end{frame}
+\begin{frame}[fragile]{Solución Final}
+\[X_{62} = 0\]
+\[X_{63} = 0\]
+\[X_{64} = 5\]
+\[X_{65} = 2\]
 \end{frame}
 
 %Problema 9
@@ -710,68 +782,67 @@ Jugo  & 0 & 100 & 120 & 1 & 35 \\
 \hline 
 \end{tabular}
 \end{frame}
+
 \begin{frame}[t,fragile]{Problema 3.4-15 }
 Los requerimientos nutritivos son los siguientes. Cada niño debe recibir de 400 a 600 calorías. No más de 30\% de las calorías totales debe venir en grasas. Cada niño debe consumir al menos 60 mg de vitamina C y 12 g de proteína. Todavía más, por razones prácticas, cada niño necesita justo 2 rebanadas de pan (para un sandwich), al menos el doble de mantequilla de maní que de mermelada y al menos una taza de líquido (leche y/o jugo de naranja). 
 Joyce y Marvin desean seleccionar las opciones de alimento para cada niño que minimice el costo mientras cumple con los requerimientos establecidos.
-
-
 \end{frame}
 \begin{frame}[fragile]{Análisis}
 Se requiere cubrir los requerimientos de la forma más barata posible. Como en el problema de la dieta visto en clases.
 
 \end{frame}
 \begin{frame}[fragile]{Variables de Decisión}
-X1 = Rebanadas de pan\\
-X2 = Cucharadas de mantequillas de maní\\
-X3 = Cucharadas de fresa de mermelada\\
-X4 = Unidades de Galletas integrales\\
-X5 = Tazas de leche\\
-X6 = Tazas de jugo\\
+\[x_{1} = Rebanadas de pan\]
+\[x_{2} = Cucharadas de mantequillas de maní\]
+\[X_{3} = Cucharadas de fresa de mermelada\]
+\[X_{4} = Unidades de Galletas integrales\]
+\[X_{5} = Tazas de leche\]
+\[X_{6} = Tazas de jugo\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Minimizar\\
-Z = 5X1 + 4X2 +7X3 + 8X4 + 15X5 +36X6\\
+\[Z = 5x_{1} + 4x_{2} +7X_{3} + 8X_{4} + 15X_{5} +36X_{6}\]
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
 Calorías mínimas:\\
-70x1 + 100x2 + 50x3 + 60x4 + 150x5 + 100x6 >= 400\\
+\[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} >= 400\]
 Calorías máximas:
-70x1 + 100x2 + 50x3 + 60x4 + 150x5 + 100x6 <= 600\\
+\[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} <= 600\]
 Grasa:\\
--11x1 + 45x2 - 15x3 + 2x4 + 25x5 - 30x6  <=  0\\
+\[-11x_{1} + 45x_{2} - 15x_{3} + 2x_{4} + 25x_{5} - 30x_{6}  <=  0\]
 Vitamina C:\\
-3x3 + 2x5 + 120x6 >= 60\\
+\[3x_{3} + 2x_{5} + 120x_{6} >= 60\]
 \end{frame}
 \begin{frame}[fragile]{Restricciones}
 Proteínas:\\
-3x1 + 4x2 + x4 + 8x5 + x6 >= 12\\
-Pan:\\
-x1 = 2\\
+\[3x_{1} + 4x_{2} + x_{4} + 8x_{5} + x_{6} >= 12\]
+Pan:
+\[x_{1} = 2\]
 Doble mantequilla de maní que mermelada:\\
-x2 - 2x3 >= 0\\
+\[x_{2} - 2x_{3} >= 0\]
 Líquidos:\\
-x5 + x6 >= 1 \\
+\[x_{5} + x_{6} >= 1 \]
 Triviales\\
-x1, x2, x3, x4, x5, x6 >= 0\\
+ \[x_{1}, x_{2}, x_{3}, x_{4}, x_{5}, x_{6} >= 0\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
 Minimizar\\
-Z = 5X1 + 4X2 +7X3 + 8X4 + 15X5 +36X6\\
+\[Z = 5X_{1} + 4X_{2} +7X_{3} + 8X_{4} + 15X_{5} +36X_{6}\]
 Sujeto a :\\
-70x1 + 100x2 + 50x3 + 60x4 + 150x5 + 100x6 >= 400\\
-70x1 + 100x2 + 50x3 + 60x4 + 150x5 + 100x6 <= 600\\
--11x1 + 45x2 - 15x3 + 2x4 + 25x5 - 30x6  <=  0\\
-3x3 + 2x5 + 120x6 >= 60\\
-3x1 + 4x2 + x4 + 8x5 + x6 >= 12\\
-x1 = 2\\
-x2 - 2x3 >= 0\\
-x5 + x6 >= 1 \\
-x1, x2, x3, x4, x5, x6 >= 0\\
+\[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} >= 400\]
+\[70x_{1} + 100x_{2} + 50x_{3} + 60x_{4} + 150x_{5} + 100x_{6} <= 600\]
+\[-11x_{1} + 45x_{2} - 15x_{3} + 2x_{4} + 25x_{5} - 30x_{6}  <=  0\]
+\[3x_{3} + 2x_{5} + 120x_{6} >= 60\]
+\[3x_{1} + 4x_{2} + x_{4} + 8x_{5} + x_{6} >= 12\]
+\[x{1} = 2\]
+\[x_{2} - 2x_{3} >= 0\]
+\[x_{5} + x_{6} >= 1 \]
+\[x_{1}, x_{2}, x_{3}, x_{4}, x_{5}, x_{6} >= 0\]
 
 \end{frame}
 
@@ -783,18 +854,24 @@ x1, x2, x3, x4, x5, x6 >= 0\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 47.79485 \]
+\[X_{1} = 2.0000\]
+\[X_{2} = 0.5747508\]
+\[X_{3} = 0.2873754\]
+\[X_{4} = 1.039452\]
+\[X_{5} = 0.5157807\]
+\[X_{6} = 0.4842193\]
 \end{frame}
 
 %Problema 10
 \begin{frame}[t,fragile]{Problema 3.6-5 }
-
 Maureen Laird es directora de inversiones de Alva Electric Co., empresa importante en el medio oeste. La compañía ha programado la construcción de nuevas plantas hidroeléctricas a 5, 10, y 20 años, para satisfacer las necesidades de la creciente población en la región servida por la empresa. Para cubrir por lo menos los costos de construcción, Maureen tiene que invertir parte del dinero de  la empresa para cubrir estas necesidades futuras de liquidez. Maureen Sólo puede comprar tres tipos de activos financieros, cada uno  cuesta \$ 1 millón por unidad.
  \begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{10}
 \end{wrapfigure}\\
-
 \end{frame}
+
 \begin{frame}[t,fragile]{Problema 3.6-5 }
 Unidades fraccionarias pueden ser comprados. Los activos que produzcan ingresos de 5, 10 y 20 años a partir de ahora, y que los ingresos se necesitan para cubrir al menos el flujo de efectivo mínimo las necesidades de estos años. (Cualquier excedente de ingresos por encima del mínimo obligación de que cada período de tiempo se aprovechará para aumentar el pago de dividendos a los accionistas en lugar de guardarlo para ayudar a cumplir con el requisito mínimo de liquidez en el próximo período de tiempo.)La siguiente tabla muestra  los ingresos generados por cada unidad de cada activo y el  mínimo de ingresos necesarios para cada uno de los periodos futuros cuando una nueva central hidroeléctrica se construirá.
 \end{frame}
@@ -811,33 +888,33 @@ Se quiere determinar la mezcla de inversiones  para las acciones, que cumplan co
 \end{frame}
 
 \begin{frame}[fragile]{Variables de Decisión}
-X1 = La cantidad de inversión para el activo 1\\
-X2 = La cantidad de inversión para el activo 2\\
-X3 = La cantidad de inversión para el activo 3\\
+\[X_{1} = La cantidad de inversión para el activo 1\]
+\[X_{2} = La cantidad de inversión para el activo 2\]
+\[X_{3} = La cantidad de inversión para el activo 3\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Función Objetivo}
 Minimizar\\
-Z = X1 + X2 + X3\\
+\[Z = X_{1} + X_{2} + X_{3}\]
 \end{frame}
 
 \begin{frame}[fragile]{Restricciones}
-2x1 + 2X2 +0.5  >= 400\\
-0.5X1 + 0.5X2 +X3 >= 100\\
-1.5 X1 + 3X3 >= 300\\
-X1, X2, X3 >= 0\\
+\[2X_{1} + 2X_{2} +0.5X_{3}  >= 400\]
+\[0.5X_{1} + 0.5X_{2} +X_{3} >= 100\]
+\[1.5 X_{1} + 3X_{3} >= 300\]
+\[X_{1}, X_{2}, X_{3} >= 0\]
 
 \end{frame}
 
 \begin{frame}[fragile]{Modelo Completo}
-Minimizar
-Z = X1 + X2 + X3\\
+Minimizar:
+\[Z = X_{1} + X_{2} + X_{3}\]
 Sujeto a :\\
-2x1 + X2 +0.5X3  >= 400\\
-0.5X1 + 0.5X2 +X3 >= 100\\
-1.5 X2 + 2X3 >= 300\\
-X1, X2, X3 >= 0\\
+\[2X_{1} + X_{2} +0.5X_{3}  >= 400\]
+\[0.5X_{1} + 0.5X_{2} +X_{3} >= 100\]
+\[1.5 X_{2} + 2X_{3} >= 300\]
+\[X_{1}, X_{2}, X_{3} >= 0\]
 
 \end{frame}
 
@@ -849,6 +926,10 @@ X1, X2, X3 >= 0\\
 \end{frame}
 
 \begin{frame}[fragile]{Solución Final}
+\[Z = 300.0000\]
+\[X_{1} = 100.0000\]
+\[X_{2} = 200.0000\]
+\[X_{3} = 0.0000\]
 \end{frame}
 
 \end{document}
